@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Live Mobile Developer Job Tracker</title>
+<style>
+:root{--bg:#0e1116;--card:#161b22;--card2:#1c2530;--line:#2b333d;--ink:#e6edf3;--muted:#9aa7b4;
+--t1:#1baf7a;--t2:#2a78d6;--t3:#eda100;--warn:#e34948;--ok:#2ea043;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);padding:22px;
+font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+h1{font-size:21px;margin:0 0 3px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:14px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+button{background:var(--card2);color:var(--ink);border:1px solid var(--line);border-radius:7px;
+padding:9px 15px;font-size:13px;cursor:pointer;font-weight:600}
+button:hover{border-color:#388bfd}
+button.primary{background:#1f6feb;border-color:#1f6feb}
+button.primary:hover{background:#388bfd}
+button:disabled{opacity:.5;cursor:wait}
+select,input[type=text]{background:var(--card2);color:var(--ink);border:1px solid var(--line);
+border-radius:6px;padding:7px 9px;font-size:13px}
+input[type=text]{min-width:170px}
+.meta{font-size:12px;color:var(--muted)}
+.srcs{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;font-size:11.5px}
+.src{padding:3px 9px;border-radius:20px;border:1px solid var(--line);background:var(--card2);color:var(--muted)}
+.src.ok{border-color:rgba(46,160,67,.5);color:#7ee2a8}
+.src.err{border-color:rgba(227,73,72,.5);color:#ff9d9b}
+.src.load{border-color:rgba(56,139,253,.5);color:#79c0ff}
+.track{height:8px;background:var(--card2);border-radius:5px;overflow:hidden;flex:1;min-width:160px}
+.fill{height:100%;background:linear-gradient(90deg,var(--t1),#388bfd);width:0%;transition:width .3s}
+.tier{margin:22px 0 9px;font-size:15px;font-weight:600;display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:3px}
+.cnt{color:var(--muted);font-weight:400;font-size:12.5px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:9px 11px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;font-size:12.5px}
+th{background:var(--card2);color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+tr:last-child td{border-bottom:none}
+tr.done{opacity:.45}
+tr.done td.co{text-decoration:line-through}
+td.co{font-weight:600}
+.chip{display:inline-block;padding:2px 7px;border-radius:5px;font-size:10.5px;font-weight:700;white-space:nowrap}
+.st-flutter{background:rgba(69,208,255,.15);color:#79d5ff}
+.st-rn{background:rgba(97,218,251,.15);color:#7fe1f5}
+.st-android{background:rgba(61,220,132,.15);color:#7ee2a8}
+.st-ios{background:rgba(200,200,210,.15);color:#c9d1d9}
+.st-mobile{background:rgba(160,140,255,.15);color:#b9a8ff}
+.lv{font-size:11px;color:var(--muted)}
+.elig-y{color:#7ee2a8;font-weight:600}
+.elig-m{color:#f0c674}
+.elig-n{color:#ff9d9b}
+.fresh{color:#7ee2a8;font-weight:600}
+a.ap{color:#79c0ff;text-decoration:none;font-weight:600;white-space:nowrap}
+a.ap:hover{text-decoration:underline}
+.chk{width:17px;height:17px;cursor:pointer;accent-color:var(--ok)}
+.note{background:rgba(56,139,253,.07);border:1px solid rgba(56,139,253,.25);border-radius:8px;
+padding:10px 13px;font-size:12px;color:var(--muted);margin-bottom:14px}
+.note b{color:var(--ink)}
+.empty{padding:22px;text-align:center;color:var(--muted);font-size:13px}
+.spon a{display:inline-block;margin:4px 9px 4px 0;color:#79c0ff;text-decoration:none;font-size:12.5px}
+.spon a:hover{text-decoration:underline}
+.spon h4{margin:0 0 6px;font-size:13px}
+@media(max-width:820px){th.hd,td.hd{display:none}}
+</style>
+</head>
+<body>
+
+<h1>Live Mobile Developer Job Tracker</h1>
+<div class="sub">Pulls fresh listings from live job APIs each time you hit Refresh · Prioritized for a Tunisia-based React Native / Flutter tech lead</div>
+
+<div class="note">
+<b>Two modes.</b> On its own, this page queries three job APIs that allow browser access (Remotive, Jobicy, Arbeitnow) — roughly 10–25 mobile roles. If <code>jobs.json</code> sits beside it (produced by <code>fetch_jobs.py</code>), it also loads that, which adds <b>23 visa-sponsoring employers' own job boards</b> — N26, Adyen, Trade Republic, Wise, Delivery Hero, Spotify, MoonPay, Miro, Picnic, HelloFresh, Canonical, GitLab, Coinbase and more. <b>Open this file directly in your browser</b> (double-click) for fetching and saved progress to work.
+</div>
+
+<div class="panel">
+  <div class="row">
+    <button class="primary" id="refresh">↻ Refresh jobs</button>
+    <span class="meta" id="updated">Never updated</span>
+    <span style="flex:1"></span>
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <span class="meta" id="prog">0 / 0 handled</span>
+  </div>
+  <div class="row" style="margin-top:12px">
+    <input type="text" id="q" placeholder="Search title / company…">
+    <select id="fStack"><option value="">All stacks</option><option>Flutter</option><option>React Native</option><option>Android</option><option>iOS</option><option>Mobile</option></select>
+    <select id="fLevel"><option value="">All levels</option><option>Lead</option><option>Senior</option><option>Mid</option><option>Junior</option></select>
+    <select id="fElig"><option value="">All eligibility</option><option value="y">Tunisia likely OK</option><option value="m">Possible</option><option value="n">Unlikely</option></select>
+    <select id="fState"><option value="">All statuses</option><option value="todo">Unchecked</option><option value="done">Checked</option><option value="applied">Applied</option><option value="interview">Interviewing</option><option value="offer">Offer</option><option value="rejected">Rejected</option></select>
+    <button id="reset">Reset tracking</button>
+  </div>
+  <div class="srcs" id="srcs"></div>
+</div>
+
+<div id="out"></div>
+
+<div class="panel spon" style="margin-top:22px">
+  <h4>Visa-sponsoring employers — check career pages directly (APIs don't surface these)</h4>
+  <div class="meta" style="margin-bottom:8px">Germany EU Blue Card 2026 IT threshold: <b>€45,934.20</b>/yr · Netherlands HSM 2026: <b>€5,942</b>/mo (age 30+)</div>
+  <a href="https://n26.com/en-eu/careers" target="_blank" rel="noopener">N26 (Berlin)</a>
+  <a href="https://traderepublic.com/careers" target="_blank" rel="noopener">Trade Republic</a>
+  <a href="https://jobs.zalando.com" target="_blank" rel="noopener">Zalando</a>
+  <a href="https://careers.deliveryhero.com" target="_blank" rel="noopener">Delivery Hero</a>
+  <a href="https://jobs.sap.com" target="_blank" rel="noopener">SAP</a>
+  <a href="https://careers.booking.com" target="_blank" rel="noopener">Booking.com</a>
+  <a href="https://careers.adyen.com" target="_blank" rel="noopener">Adyen</a>
+  <a href="https://picnic.app/careers" target="_blank" rel="noopener">Picnic (visa + relocation)</a>
+  <a href="https://www.klarna.com/careers/" target="_blank" rel="noopener">Klarna (visa support)</a>
+  <a href="https://wise.jobs" target="_blank" rel="noopener">Wise (UK)</a>
+  <a href="https://www.revolut.com/careers/" target="_blank" rel="noopener">Revolut</a>
+  <a href="https://jobs.glovoapp.com" target="_blank" rel="noopener">Glovo (Barcelona)</a>
+  <h4 style="margin-top:14px">Boards to check manually</h4>
+  <a href="https://remoteok.com/remote-mobile-jobs" target="_blank" rel="noopener">RemoteOK ↗</a>
+  <a href="https://weworkremotely.com/remote-jobs-mobile-development" target="_blank" rel="noopener">We Work Remotely ↗</a>
+  <a href="https://himalayas.app/jobs/worldwide/react-native-developer" target="_blank" rel="noopener">Himalayas ↗</a>
+  <a href="https://www.workingnomads.com/remote-africa-jobs" target="_blank" rel="noopener">Working Nomads · Africa ↗</a>
+  <a href="https://relocate.me/search/mobile" target="_blank" rel="noopener">Relocate.me ↗</a>
+  <a href="https://nextleveljobs.eu/role/mobile" target="_blank" rel="noopener">NextLevelJobs EU ↗</a>
+  <a href="https://web3.career/react-native-jobs" target="_blank" rel="noopener">Web3.career ↗</a>
+  <a href="https://www.gulftalent.com" target="_blank" rel="noopener">GulfTalent ↗</a>
+</div>
+
+<script>
+/* ---------- storage (safe) ---------- */
+const SKEY="mdjt_state_v2", CKEY="mdjt_cache_v2";
+let track={}, cache=null;
+try{track=JSON.parse(localStorage.getItem(SKEY))||{}}catch(e){track={}}
+try{cache=JSON.parse(localStorage.getItem(CKEY))}catch(e){cache=null}
+const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+
+/* ---------- classification ---------- */
+const MOBILE_RE=/(flutter|dart\b|react[\s-]?native|android|\bios\b|kotlin|swift|jetpack compose|mobile|expo\b|kotlin multiplatform|\bkmp\b)/i;
+const DEVROLE_RE=/(engineer|developer|programmer|architect|tech lead|team lead|sdk)/i;
+const EXCLUDE_RE=/\b(designer|graphic|ux designer|ui designer|marketing|sales|recruiter|copywriter|accountant|content writer|customer (support|success)|seo|data scientist|qa engineer|tester)\b/i;
+
+function stackOf(t,tags){
+  const s=(t+" "+(tags||"")).toLowerCase();
+  if(/flutter|dart/.test(s))return"Flutter";
+  if(/react[\s-]?native|expo/.test(s))return"React Native";
+  if(/android|kotlin/.test(s))return"Android";
+  if(/\bios\b|swift/.test(s))return"iOS";
+  return"Mobile";
+}
+function levelOf(t){
+  const s=t.toLowerCase();
+  if(/\b(lead|principal|staff|head of|architect|manager|director|vp)\b/.test(s))return"Lead";
+  if(/\b(senior|sr\.?|snr)\b/.test(s))return"Senior";
+  if(/\b(junior|jr\.?|intern|graduate|entry|trainee|working student|praktikum|werkstudent)\b/.test(s))return"Junior";
+  return"Mid";
+}
+/* Tunisia eligibility heuristic from the API's stated candidate region */
+function eligOf(geo){
+  const g=(geo||"").toLowerCase();
+  if(!g)return["m","Unstated"];
+  if(/anywhere|worldwide|global/.test(g))return["y","Worldwide"];
+  if(/africa/.test(g))return["y","Africa incl."];
+  if(/emea|middle east/.test(g))return["y","EMEA"];
+  if(/europe/.test(g)&&!/^europe only/.test(g))return["m","Europe-scoped"];
+  if(/usa|united states|u\.s|americas|canada|latam|brazil|apac|australia|india|uk only|united kingdom/.test(g))return["n",geo];
+  return["m",geo];
+}
+const daysAgo=d=>{const ms=Date.now()-new Date(d).getTime();return Math.floor(ms/86400000)};
+function freshLabel(d){
+  if(!d)return"—";
+  const n=daysAgo(d);
+  if(n<=1)return'<span class="fresh">today</span>';
+  if(n<=3)return'<span class="fresh">'+n+'d ago</span>';
+  return n+"d ago";
+}
+/* strip parenthetical city/variant so "Role (São Paulo)" and "Role (Mexico City)" collapse */
+const key=j=>(j.company+"|"+j.title.replace(/\(.*?\)/g,""))
+  .toLowerCase().replace(/[^a-z0-9]/g,"").slice(0,90);
+
+/* ---------- sources ---------- */
+const SOURCES=[
+ {name:"Remotive",
+  urls:["https://remotive.com/api/remote-jobs?search=flutter&limit=80",
+        "https://remotive.com/api/remote-jobs?search=react%20native&limit=80",
+        "https://remotive.com/api/remote-jobs?search=mobile%20developer&limit=80",
+        "https://remotive.com/api/remote-jobs?search=mobile%20engineer&limit=80",
+        "https://remotive.com/api/remote-jobs?search=android&limit=60",
+        "https://remotive.com/api/remote-jobs?search=ios&limit=60",
+        "https://remotive.com/api/remote-jobs?search=kotlin&limit=40",
+        "https://remotive.com/api/remote-jobs?search=swift&limit=40"],
+  parse:d=>(d.jobs||[]).map(j=>({
+    company:j.company_name,title:j.title,stackRaw:String(j.tags||""),
+    geo:j.candidate_required_location,date:j.publication_date,
+    salary:j.salary||"",url:j.url,src:"Remotive"}))},
+ {name:"Jobicy",
+  urls:["https://jobicy.com/api/v2/remote-jobs?count=50&tag=flutter",
+        "https://jobicy.com/api/v2/remote-jobs?count=50&tag=react-native",
+        "https://jobicy.com/api/v2/remote-jobs?count=50&tag=mobile",
+        "https://jobicy.com/api/v2/remote-jobs?count=50&tag=mobile-development",
+        "https://jobicy.com/api/v2/remote-jobs?count=50&tag=android",
+        "https://jobicy.com/api/v2/remote-jobs?count=50&tag=ios",
+        "https://jobicy.com/api/v2/remote-jobs?count=50&tag=kotlin",
+        "https://jobicy.com/api/v2/remote-jobs?count=50&tag=swift"],
+  parse:d=>(d.jobs||[]).map(j=>({
+    company:j.companyName,title:j.jobTitle,stackRaw:String(j.jobIndustry||""),
+    geo:j.jobGeo,date:j.pubDate,
+    salary:(j.salaryMin&&j.salaryMax)?`${Math.round(j.salaryMin/1000)}–${Math.round(j.salaryMax/1000)}k ${j.salaryCurrency||""}`:"",
+    url:j.url,src:"Jobicy"}))},
+ {name:"Arbeitnow (DE/EU)",
+  urls:["https://www.arbeitnow.com/api/job-board-api"],
+  parse:d=>(d.data||[]).map(j=>({
+    company:j.company_name,title:j.title,stackRaw:(j.tags||[]).join(" "),
+    geo:j.remote?"Remote / "+(j.location||"EU"):(j.location||"Germany"),
+    date:j.created_at?new Date(j.created_at*1000).toISOString():null,
+    salary:"",url:j.url,src:"Arbeitnow",
+    visa:/visa|sponsor|blue card|relocation|work permit/i.test(j.description||"")}))}
+];
+
+let JOBS=[];
+
+/* Load jobs.json produced by fetch_jobs.py (richer: includes ATS sponsor companies) */
+async function loadLocal(el){
+  el.className="src load"; el.textContent="jobs.json · loading…";
+  try{
+    const r=await fetch("jobs.json?t="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const d=await r.json();
+    const n=(d.jobs||[]).length;
+    if(!n)throw new Error("empty");
+    el.className="src ok";
+    el.textContent=`jobs.json · ${n} roles (${d.generatedAt?new Date(d.generatedAt).toLocaleDateString():"?"})`;
+    return (d.jobs||[]).map(j=>({...j,fromScraper:true}));
+  }catch(e){
+    el.className="src"; el.textContent="jobs.json · not found (run fetch_jobs.py)";
+    return [];
+  }
+}
+
+async function fetchSource(s,el){
+  el.className="src load"; el.textContent=s.name+" · loading…";
+  let got=[],fails=0;
+  for(const u of s.urls){
+    try{
+      const r=await fetch(u,{cache:"no-store"});
+      if(!r.ok)throw new Error("HTTP "+r.status);
+      got=got.concat(s.parse(await r.json()));
+    }catch(e){fails++}
+  }
+  if(got.length===0){el.className="src err";el.textContent=s.name+" · unavailable";return[]}
+  el.className="src ok";
+  el.textContent=s.name+" · "+got.length+" raw"+(fails?` (${fails} query failed)`:"");
+  return got;
+}
+
+async function refresh(){
+  const btn=document.getElementById("refresh");
+  btn.disabled=true; btn.textContent="↻ Refreshing…";
+  const bar=document.getElementById("srcs"); bar.innerHTML="";
+  const localEl=document.createElement("span"); localEl.className="src";
+  localEl.textContent="jobs.json"; bar.appendChild(localEl);
+  const els=SOURCES.map(s=>{const e=document.createElement("span");e.className="src";e.textContent=s.name;bar.appendChild(e);return e});
+
+  const [localRows,...results]=await Promise.all([
+    loadLocal(localEl),
+    ...SOURCES.map((s,i)=>fetchSource(s,els[i]))
+  ]);
+  let all=[].concat(...results);
+
+  // filter/classify the live-API rows, then merge scraper rows (already classified)
+  const seen=new Set(); const out=[];
+  for(const j of localRows){
+    const k=key(j); if(seen.has(k))continue; seen.add(k); out.push(j);
+  }
+  for(const j of all){
+    if(!j.title||!j.company)continue;
+    if(!MOBILE_RE.test(j.title))continue;      // title must name a mobile stack
+    if(!DEVROLE_RE.test(j.title))continue;     // and be an engineering role
+    if(EXCLUDE_RE.test(j.title))continue;
+    const k=key(j); if(seen.has(k))continue; seen.add(k);
+    j.stack=stackOf(j.title,j.stackRaw);
+    j.level=levelOf(j.title);
+    const [ec,el2]=eligOf(j.geo); j.eligCode=ec; j.eligLabel=el2;
+    out.push(j);
+  }
+  out.sort((a,b)=>new Date(b.date||0)-new Date(a.date||0));
+  JOBS=out;
+
+  const stamp=new Date().toISOString();
+  save(CKEY,{at:stamp,jobs:JOBS});
+  document.getElementById("updated").textContent="Updated "+new Date(stamp).toLocaleString()+" · "+JOBS.length+" mobile roles";
+  btn.disabled=false; btn.textContent="↻ Refresh jobs";
+  render();
+}
+
+/* ---------- render ---------- */
+function render(){
+  const q=document.getElementById("q").value.toLowerCase();
+  const fS=document.getElementById("fStack").value,
+        fL=document.getElementById("fLevel").value,
+        fE=document.getElementById("fElig").value,
+        fT=document.getElementById("fState").value;
+
+  const tiers={
+    "Tier 1 · Remote, Tunisia likely eligible":{c:"var(--t1)",rows:[]},
+    "Tier 2 · Europe / visa-relevant":{c:"var(--t2)",rows:[]},
+    "Tier 3 · Other regions / restricted":{c:"var(--t3)",rows:[]}
+  };
+  let total=0,handled=0;
+
+  JOBS.forEach(j=>{
+    const k=key(j), st=track[k]||{done:false,status:""};
+    total++; if(st.done||st.status)handled++;
+    if(q&&!(j.title+" "+j.company).toLowerCase().includes(q))return;
+    if(fS&&j.stack!==fS)return;
+    if(fL&&j.level!==fL)return;
+    if(fE&&j.eligCode!==fE)return;
+    if(fT==="todo"&&st.done)return;
+    if(fT==="done"&&!st.done)return;
+    if(["applied","interview","offer","rejected"].includes(fT)&&st.status!==fT)return;
+
+    let t;
+    if(j.eligCode==="y")t="Tier 1 · Remote, Tunisia likely eligible";
+    else if(j.visa||/germany|europe|netherlands|berlin|amsterdam|munich|eu\b/i.test(j.geo||""))t="Tier 2 · Europe / visa-relevant";
+    else t="Tier 3 · Other regions / restricted";
+    tiers[t].rows.push([j,k,st]);
+  });
+
+  const out=document.getElementById("out"); out.innerHTML="";
+  if(!JOBS.length){
+    out.innerHTML='<div class="panel empty">No jobs loaded yet. Hit <b>↻ Refresh jobs</b>.<br><span style="font-size:12px">If nothing loads, the page is likely sandboxed — download it and open the file directly in your browser.</span></div>';
+  }
+  for(const [name,d] of Object.entries(tiers)){
+    if(!d.rows.length)continue;
+    const h=document.createElement("div");h.className="tier";
+    h.innerHTML=`<span class="dot" style="background:${d.c}"></span>${name} <span class="cnt">· ${d.rows.length}</span>`;
+    out.appendChild(h);
+    const tb=document.createElement("table");
+    tb.innerHTML=`<thead><tr><th style="width:32px"></th><th>Company</th><th>Role</th><th>Stack</th>
+      <th>Level</th><th class="hd">Region</th><th class="hd">Salary</th><th>Posted</th><th>Status</th><th>Apply</th></tr></thead>`;
+    const body=document.createElement("tbody");
+    d.rows.forEach(([j,k,st])=>{
+      const tr=document.createElement("tr"); if(st.done)tr.className="done";
+      const sc={"Flutter":"st-flutter","React Native":"st-rn","Android":"st-android","iOS":"st-ios","Mobile":"st-mobile"}[j.stack];
+      tr.innerHTML=`<td><input type="checkbox" class="chk" data-k="${k}" ${st.done?"checked":""}></td>
+        <td class="co">${j.company}${j.visa?' <span class="chip st-android">visa?</span>':''}</td>
+        <td>${j.title}</td>
+        <td><span class="chip ${sc}">${j.stack}</span></td>
+        <td class="lv">${j.level}</td>
+        <td class="hd elig-${j.eligCode}">${j.eligLabel||"—"}</td>
+        <td class="hd">${j.salary||"—"}</td>
+        <td>${freshLabel(j.date)}</td>
+        <td><select class="stt" data-k="${k}">
+          <option value="">—</option>
+          <option value="applied"${st.status==="applied"?" selected":""}>Applied</option>
+          <option value="interview"${st.status==="interview"?" selected":""}>Interviewing</option>
+          <option value="offer"${st.status==="offer"?" selected":""}>Offer</option>
+          <option value="rejected"${st.status==="rejected"?" selected":""}>Rejected</option>
+        </select></td>
+        <td><a class="ap" href="${j.url}" target="_blank" rel="noopener">Open ↗</a></td>`;
+      body.appendChild(tr);
+    });
+    tb.appendChild(body); out.appendChild(tb);
+  }
+  const pct=total?Math.round(handled/total*100):0;
+  document.getElementById("fill").style.width=pct+"%";
+  document.getElementById("prog").textContent=`${handled} / ${total} handled`;
+}
+
+/* ---------- events ---------- */
+document.addEventListener("change",e=>{
+  const k=e.target.dataset.k; if(!k)return;
+  if(!track[k])track[k]={done:false,status:""};
+  if(e.target.classList.contains("chk"))track[k].done=e.target.checked;
+  if(e.target.classList.contains("stt"))track[k].status=e.target.value;
+  save(SKEY,track); render();
+});
+["q","fStack","fLevel","fElig","fState"].forEach(id=>{
+  document.getElementById(id).addEventListener("input",render);
+  document.getElementById(id).addEventListener("change",render);
+});
+document.getElementById("refresh").addEventListener("click",refresh);
+document.getElementById("reset").addEventListener("click",()=>{
+  if(confirm("Clear all checkboxes and statuses?")){track={};save(SKEY,track);render()}
+});
+
+/* ---------- boot: show cache instantly, then auto-refresh if stale ---------- */
+if(cache&&cache.jobs){
+  JOBS=cache.jobs;
+  const hrs=(Date.now()-new Date(cache.at).getTime())/3600000;
+  document.getElementById("updated").textContent="Cached "+new Date(cache.at).toLocaleString()+
+    ` · ${JOBS.length} roles · ${hrs<1?"under an hour":Math.round(hrs)+"h"} old`;
+  render();
+  if(hrs>12)refresh();          // auto-refresh once a day-ish
+}else{
+  render(); refresh();
+}
+</script>
+</body>
+</html>
