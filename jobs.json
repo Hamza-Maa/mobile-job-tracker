@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-07-31T09:41:57.617832+00:00",
- "totalRaw": 3267,
- "totalJobs": 24,
+ "generatedAt": "2026-08-01T08:26:52.136615+00:00",
+ "totalRaw": 3269,
+ "totalJobs": 26,
  "sources": {
-  "Remotive": 280,
-  "Jobicy": 165,
+  "Remotive": 272,
+  "Jobicy": 169,
   "Arbeitnow": 375,
   "Himalayas": 100,
   "We Work Remotely": 100,
@@ -13,6 +13,48 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Binance",
+   "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "APAC",
+   "eligCode": "n",
+   "eligLabel": "APAC",
+   "salary": "",
+   "date": "2026-08-01T03:29:49+00:00",
+   "url": "https://jobicy.com/jobs/150064-client-full-stack-engineer-im-chat-platform-android-focus",
+   "src": "Jobicy",
+   "visa": false
+  },
+  {
+   "company": "Jobicy RSS",
+   "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-08-01T03:29:49+00:00",
+   "url": "https://jobicy.com/jobs/150064-client-full-stack-engineer-im-chat-platform-android-focus",
+   "src": "Jobicy RSS",
+   "visa": false
+  },
+  {
+   "company": "Wingz Ph",
+   "title": "Software Engineer (Django + React Native)",
+   "stack": "React Native",
+   "level": "Mid",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-08-01T00:23:26+00:00",
+   "url": "https://himalayas.app/companies/wingz-ph/jobs/software-engineer-django-react-native",
+   "src": "Himalayas",
+   "visa": false
+  },
   {
    "company": "N26",
    "title": "Android Engineer - Subscriptions",
@@ -137,20 +179,6 @@
    "date": "2026-07-22T18:30:10+00:00",
    "url": "https://jobicy.com/jobs/147335-principal-engineer-mobile",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Wise",
-   "title": "Senior iOS Engineer – Send Experience",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "London, gb",
-   "eligCode": "m",
-   "eligLabel": "London, gb",
-   "salary": "",
-   "date": "2026-07-22T15:30:15.937000+00:00",
-   "url": "https://jobs.smartrecruiters.com/wise/744000139108560",
-   "src": "wise (SmartRecruiters)",
    "visa": false
   },
   {
