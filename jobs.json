@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-08-01T08:26:52.136615+00:00",
- "totalRaw": 3269,
+ "generatedAt": "2026-08-02T08:29:35.090217+00:00",
+ "totalRaw": 3261,
  "totalJobs": 26,
  "sources": {
   "Remotive": 272,
-  "Jobicy": 169,
+  "Jobicy": 162,
   "Arbeitnow": 375,
   "Himalayas": 100,
   "We Work Remotely": 100,
@@ -13,6 +13,76 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Clera",
+   "title": "Founding Full-Stack iOS Engineer",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-08-02T05:17:00+00:00",
+   "url": "https://himalayas.app/companies/clera/jobs/founding-full-stack-ios-engineer",
+   "src": "Himalayas",
+   "visa": false
+  },
+  {
+   "company": "tripadvisor",
+   "title": "Software Engineer II (Android)",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "London",
+   "eligCode": "m",
+   "eligLabel": "London",
+   "salary": "",
+   "date": "2026-08-01T19:15:03+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/tripadvisor/software-engineer-ii-android-london-221655",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "tripadvisor",
+   "title": "Android Mobile Engineer",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "Germany",
+   "eligCode": "m",
+   "eligLabel": "Germany",
+   "salary": "",
+   "date": "2026-08-01T19:15:03+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/tripadvisor/android-mobile-engineer-41468",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Deliveryhero",
+   "title": "Software Engineer Trainee (iOS)",
+   "stack": "iOS",
+   "level": "Junior",
+   "geo": "Singapore, sg",
+   "eligCode": "n",
+   "eligLabel": "Singapore, sg",
+   "salary": "",
+   "date": "2026-08-01T11:32:17.850000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000141067599",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
+  {
+   "company": "Finom",
+   "title": "Senior Android Developer (Remote)",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "Germany",
+   "eligCode": "m",
+   "eligLabel": "Germany",
+   "salary": "",
+   "date": "2026-08-01T08:05:54+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/finom/senior-android-developer-remote-germany-86428",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "Binance",
    "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
@@ -39,20 +109,6 @@
    "date": "2026-08-01T03:29:49+00:00",
    "url": "https://jobicy.com/jobs/150064-client-full-stack-engineer-im-chat-platform-android-focus",
    "src": "Jobicy RSS",
-   "visa": false
-  },
-  {
-   "company": "Wingz Ph",
-   "title": "Software Engineer (Django + React Native)",
-   "stack": "React Native",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-08-01T00:23:26+00:00",
-   "url": "https://himalayas.app/companies/wingz-ph/jobs/software-engineer-django-react-native",
-   "src": "Himalayas",
    "visa": false
   },
   {
@@ -95,20 +151,6 @@
    "date": "2026-07-30T06:37:26+00:00",
    "url": "https://job-boards.greenhouse.io/adyen/jobs/8075150",
    "src": "adyen (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Deliveryhero",
-   "title": "Software Engineer Trainee (Android)",
-   "stack": "Android",
-   "level": "Junior",
-   "geo": "Singapore, sg",
-   "eligCode": "n",
-   "eligLabel": "Singapore, sg",
-   "salary": "",
-   "date": "2026-07-30T05:43:40.947000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000140600172",
-   "src": "deliveryhero (SmartRecruiters)",
    "visa": false
   },
   {
@@ -224,20 +266,6 @@
    "visa": false
   },
   {
-   "company": "Capgemini",
-   "title": "iOS Developer (Remote anywhere in México)",
-   "stack": "iOS",
-   "level": "Mid",
-   "geo": "Mexico",
-   "eligCode": "n",
-   "eligLabel": "Mexico",
-   "salary": "",
-   "date": "2026-07-18T01:55:03+00:00",
-   "url": "https://jobicy.com/jobs/147013-ios-developer-remote-anywhere-in-mexico",
-   "src": "Jobicy",
-   "visa": false
-  },
-  {
    "company": "Canonical",
    "title": "Web Frontend Engineer - JS, CSS, React, Flutter",
    "stack": "Flutter",
@@ -249,34 +277,6 @@
    "date": "2026-07-16T15:10:59+00:00",
    "url": "https://job-boards.greenhouse.io/canonical/jobs/5150422",
    "src": "canonical (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Ruby Labs",
-   "title": "Lead IOS Engineer",
-   "stack": "iOS",
-   "level": "Lead",
-   "geo": "Europe",
-   "eligCode": "m",
-   "eligLabel": "Europe",
-   "salary": "",
-   "date": "2026-07-09T11:50:06+00:00",
-   "url": "https://jobicy.com/jobs/149055-lead-ios-engineer",
-   "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Ruby Labs",
-   "title": "Lead Android Developer",
-   "stack": "Android",
-   "level": "Lead",
-   "geo": "Europe",
-   "eligCode": "m",
-   "eligLabel": "Europe",
-   "salary": "",
-   "date": "2026-07-09T11:50:05+00:00",
-   "url": "https://jobicy.com/jobs/149054-lead-android-developer",
-   "src": "Jobicy",
    "visa": false
   },
   {
