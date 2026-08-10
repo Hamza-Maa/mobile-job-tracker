@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-09T07:02:24.627795+00:00",
- "totalRaw": 3243,
+ "generatedAt": "2026-08-10T07:48:41.523129+00:00",
+ "totalRaw": 3208,
  "totalJobs": 25,
  "sources": {
-  "Remotive": 184,
-  "Jobicy": 167,
-  "Arbeitnow": 375,
+  "Remotive": 152,
+  "Jobicy": 166,
+  "Arbeitnow": 376,
   "Himalayas": 100,
   "We Work Remotely": 100,
   "WWR Programming": 25,
@@ -13,6 +13,62 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Bold",
+   "title": "Senior Android Engineer (Kotlin)",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-08-10T07:00:03+00:00",
+   "url": "https://himalayas.app/companies/bold/jobs/senior-android-engineer-kotlin-2385611765",
+   "src": "Himalayas",
+   "visa": false
+  },
+  {
+   "company": "Deliveryhero",
+   "title": "Software Engineer Trainee (Android)",
+   "stack": "Android",
+   "level": "Junior",
+   "geo": "Singapore, sg",
+   "eligCode": "n",
+   "eligLabel": "Singapore, sg",
+   "salary": "",
+   "date": "2026-08-10T05:49:36.492000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000142559910",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
+  {
+   "company": "Bloomwell Group GmbH",
+   "title": "Senior Flutter Developer (m/f/d)*",
+   "stack": "Flutter",
+   "level": "Senior",
+   "geo": "Office Frankfurt",
+   "eligCode": "m",
+   "eligLabel": "Office Frankfurt",
+   "salary": "",
+   "date": "2026-08-10T05:09:18+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/bloomwell-group-gmbh/senior-flutter-developer-office-frankfurt-489577",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Ruby Labs",
+   "title": "Senior Android Engineer",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "Europe",
+   "eligCode": "m",
+   "eligLabel": "Europe",
+   "salary": "",
+   "date": "2026-08-10T04:25:05+00:00",
+   "url": "https://jobicy.com/jobs/149053-senior-android-engineer",
+   "src": "Jobicy",
+   "visa": false
+  },
   {
    "company": "HolidayCheck Group AG",
    "title": "Software Engineer - Android (all genders)",
@@ -28,34 +84,6 @@
    "visa": false
   },
   {
-   "company": "Checkout.com",
-   "title": "Senior Mobile Engineer",
-   "stack": "Mobile",
-   "level": "Senior",
-   "geo": "London",
-   "eligCode": "m",
-   "eligLabel": "London",
-   "salary": "",
-   "date": "2026-08-08T18:40:22+00:00",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/checkoutcom/senior-mobile-engineer-london-246182",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "Clera",
-   "title": "Founding Full-Stack iOS Engineer",
-   "stack": "iOS",
-   "level": "Mid",
-   "geo": "remote",
-   "eligCode": "m",
-   "eligLabel": "remote",
-   "salary": "",
-   "date": "2026-08-08T14:40:22+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/clera/remote-founding-full-stack-ios-engineer-64757",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": true
-  },
-  {
    "company": "Hellofresh",
    "title": "Senior React Native Engineer, Consumer Alliance",
    "stack": "React Native",
@@ -67,20 +95,6 @@
    "date": "2026-08-07T16:15:59+00:00",
    "url": "https://careers.hellofresh.com/global/en/job/8093854?gh_jid=8093854",
    "src": "hellofresh (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Deliveryhero",
-   "title": "Software Engineer Trainee (Android)",
-   "stack": "Android",
-   "level": "Junior",
-   "geo": "Singapore, sg",
-   "eligCode": "n",
-   "eligLabel": "Singapore, sg",
-   "salary": "",
-   "date": "2026-08-07T06:04:17.434000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000142051989",
-   "src": "deliveryhero (SmartRecruiters)",
    "visa": false
   },
   {
@@ -290,20 +304,6 @@
    "salary": "",
    "date": "2026-07-18T18:40:02+00:00",
    "url": "https://jobicy.com/jobs/147066-staff-android-engineer",
-   "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Ruby Labs",
-   "title": "Senior Android Engineer",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "Europe",
-   "eligCode": "m",
-   "eligLabel": "Europe",
-   "salary": "",
-   "date": "2026-07-09T11:50:03+00:00",
-   "url": "https://jobicy.com/jobs/149053-senior-android-engineer",
    "src": "Jobicy",
    "visa": false
   },
