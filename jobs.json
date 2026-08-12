@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-08-11T07:14:14.419123+00:00",
- "totalRaw": 3192,
- "totalJobs": 21,
+ "generatedAt": "2026-08-12T07:38:58.139646+00:00",
+ "totalRaw": 3211,
+ "totalJobs": 25,
  "sources": {
   "Remotive": 160,
   "Jobicy": 167,
-  "Arbeitnow": 375,
+  "Arbeitnow": 376,
   "Himalayas": 100,
   "We Work Remotely": 100,
   "WWR Programming": 25,
@@ -13,6 +13,90 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Speechify",
+   "title": "Software Engineer, iOS Core Product - Cologne, Germany",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "Cologne, North Rhine-Westphalia, Germany",
+   "eligCode": "m",
+   "eligLabel": "Cologne, North Rhine-Westphalia, Germany",
+   "salary": "",
+   "date": "2026-08-12T06:45:30+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-ios-core-product-cologne-germany-250589",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Proton",
+   "title": "Senior iOS Software Engineer - London",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "London",
+   "eligCode": "m",
+   "eligLabel": "London",
+   "salary": "",
+   "date": "2026-08-12T03:55:19+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/proton/senior-ios-software-engineer-london-122937",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Proton",
+   "title": "Senior Android Software Engineer - London",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "London",
+   "eligCode": "m",
+   "eligLabel": "London",
+   "salary": "",
+   "date": "2026-08-12T03:55:19+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/proton/senior-android-software-engineer-london-338651",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Speechify",
+   "title": "Software Engineer, iOS Core Product - Belfast, United Kingdom",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "Belfast, Northern Ireland, United Kingdom",
+   "eligCode": "m",
+   "eligLabel": "Belfast, Northern Ireland, United Kingdom",
+   "salary": "",
+   "date": "2026-08-12T00:45:33+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/speechify/software-engineer-ios-core-product-belfast-united-kingdom-213253",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Speechify",
+   "title": "Software Engineer, iOS Core Product - Reading, United Kingdom",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "Reading, England, United Kingdom",
+   "eligCode": "m",
+   "eligLabel": "Reading, England, United Kingdom",
+   "salary": "",
+   "date": "2026-08-12T00:45:33+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/speechify/software-engineer-ios-core-product-reading-united-kingdom-54582",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Speechify",
+   "title": "Software Engineer, iOS Core Product - London, United Kingdom",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "London, England, United Kingdom",
+   "eligCode": "m",
+   "eligLabel": "London, England, United Kingdom",
+   "salary": "",
+   "date": "2026-08-12T00:45:33+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/speechify/software-engineer-ios-core-product-london-united-kingdom-371735",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "Wise",
    "title": "Senior iOS Engineer II",
@@ -56,20 +140,6 @@
    "visa": false
   },
   {
-   "company": "Jobicy RSS",
-   "title": "Senior Android Engineer",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-08-10T04:25:05+00:00",
-   "url": "https://jobicy.com/jobs/149053-senior-android-engineer",
-   "src": "Jobicy RSS",
-   "visa": false
-  },
-  {
    "company": "Hellofresh",
    "title": "Senior React Native Engineer, Consumer Alliance",
    "stack": "React Native",
@@ -81,20 +151,6 @@
    "date": "2026-08-07T16:15:59+00:00",
    "url": "https://careers.hellofresh.com/global/en/job/8093854?gh_jid=8093854",
    "src": "hellofresh (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "N26",
-   "title": "iOS Engineer",
-   "stack": "iOS",
-   "level": "Mid",
-   "geo": "Berlin, Barcelona",
-   "eligCode": "m",
-   "eligLabel": "Berlin, Barcelona",
-   "salary": "",
-   "date": "2026-08-06T16:15:25+00:00",
-   "url": "https://n26.com/en-eu/careers/positions/8108409?gh_jid=8108409",
-   "src": "n26 (Greenhouse)",
    "visa": false
   },
   {
