@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-08-15T06:44:11.976900+00:00",
- "totalRaw": 3218,
- "totalJobs": 20,
+ "generatedAt": "2026-08-16T06:45:39.707410+00:00",
+ "totalRaw": 3210,
+ "totalJobs": 18,
  "sources": {
-  "Remotive": 144,
-  "Jobicy": 162,
+  "Remotive": 128,
+  "Jobicy": 168,
   "Arbeitnow": 375,
   "Himalayas": 100,
   "We Work Remotely": 100,
@@ -13,20 +13,6 @@
   "ATS companies OK": 23
  },
  "jobs": [
-  {
-   "company": "Code Pepper",
-   "title": "React Native Developer",
-   "stack": "React Native",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-08-15T05:29:45+00:00",
-   "url": "https://himalayas.app/companies/code-pepper/jobs/react-native-developer",
-   "src": "Himalayas",
-   "visa": false
-  },
   {
    "company": "Hellofresh",
    "title": "Senior Mobile Developer, Growth",
@@ -52,20 +38,6 @@
    "salary": "",
    "date": "2026-08-14T17:30:21+00:00",
    "url": "https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/senior-frontend-engineer-react-kafka-kotlin-berlin-201866",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "NXT Hero GmbH",
-   "title": "C#/.NET & Mobile Developer* für Freiburger Software-Crew (*all gender)",
-   "stack": "Mobile",
-   "level": "Mid",
-   "geo": "Freiburg im Breisgau",
-   "eligCode": "m",
-   "eligLabel": "Freiburg im Breisgau",
-   "salary": "",
-   "date": "2026-08-14T09:30:31+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/nxt-hero-gmbh/c-net-mobile-developer-fur-freiburger-software-crew-all-gender-freiburg-im-breisgau-64763",
    "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
