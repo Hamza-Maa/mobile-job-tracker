@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-08-16T06:45:39.707410+00:00",
- "totalRaw": 3210,
- "totalJobs": 18,
+ "generatedAt": "2026-08-17T07:02:42.645452+00:00",
+ "totalRaw": 3197,
+ "totalJobs": 22,
  "sources": {
-  "Remotive": 128,
-  "Jobicy": 168,
+  "Remotive": 112,
+  "Jobicy": 170,
   "Arbeitnow": 375,
   "Himalayas": 100,
   "We Work Remotely": 100,
@@ -13,6 +13,76 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Oura Health Ltd",
+   "title": "Senior Android Engineer",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-08-17T03:05:04+00:00",
+   "url": "https://himalayas.app/companies/oura-health-ltd/jobs/senior-android-engineer",
+   "src": "Himalayas",
+   "visa": false
+  },
+  {
+   "company": "TransPerfect",
+   "title": "Mobile Engineer - Flutter | Berlin",
+   "stack": "Flutter",
+   "level": "Mid",
+   "geo": "Berlin, Berlin, Germany",
+   "eligCode": "m",
+   "eligLabel": "Berlin, Berlin, Germany",
+   "salary": "",
+   "date": "2026-08-16T17:30:23+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/transperfect/mobile-engineer-flutter-berlin-313677",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Grove Collaborative",
+   "title": "AI-First Android Engineer",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "USA",
+   "eligCode": "n",
+   "eligLabel": "USA",
+   "salary": "175–225k USD",
+   "date": "2026-08-16T16:32:48+00:00",
+   "url": "https://jobicy.com/jobs/150851-ai-first-android-engineer",
+   "src": "Jobicy",
+   "visa": false
+  },
+  {
+   "company": "Jobicy RSS",
+   "title": "AI-First Android Engineer",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-08-16T16:32:48+00:00",
+   "url": "https://jobicy.com/jobs/150851-ai-first-android-engineer",
+   "src": "Jobicy RSS",
+   "visa": false
+  },
+  {
+   "company": "Deliveryhero",
+   "title": "Software Engineer Trainee (Android)",
+   "stack": "Android",
+   "level": "Junior",
+   "geo": "Singapore, sg",
+   "eligCode": "n",
+   "eligLabel": "Singapore, sg",
+   "salary": "",
+   "date": "2026-08-16T11:26:40.155000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000143691029",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
   {
    "company": "Hellofresh",
    "title": "Senior Mobile Developer, Growth",
@@ -25,20 +95,6 @@
    "date": "2026-08-14T18:02:09+00:00",
    "url": "https://careers.hellofresh.com/global/en/job/7862406?gh_jid=7862406",
    "src": "hellofresh (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "idealo internet GmbH",
-   "title": "Senior Frontend Engineer (m/w/d) React, Kafka, Kotlin",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "Berlin, Berlin, Deutschland",
-   "eligCode": "m",
-   "eligLabel": "Berlin, Berlin, Deutschland",
-   "salary": "",
-   "date": "2026-08-14T17:30:21+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/senior-frontend-engineer-react-kafka-kotlin-berlin-201866",
-   "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
   {
