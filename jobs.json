@@ -1,18 +1,46 @@
 {
- "generatedAt": "2026-08-28T18:22:51.382402+00:00",
- "totalRaw": 3525,
+ "generatedAt": "2026-08-29T12:30:55.111460+00:00",
+ "totalRaw": 3527,
  "totalJobs": 20,
  "sources": {
   "Remotive": 152,
-  "Jobicy": 206,
+  "Jobicy": 202,
   "Arbeitnow": 450,
   "Himalayas": 100,
-  "We Work Remotely": 89,
+  "We Work Remotely": 90,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Finom",
+   "title": "Senior iOS Developer (Remote)",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "Germany",
+   "eligCode": "m",
+   "eligLabel": "Germany",
+   "salary": "",
+   "date": "2026-08-29T05:25:21+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/finom/senior-ios-developer-remote-germany-343902",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Deliveryhero",
+   "title": "Sr Software Engineer IOS",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "Buenos Aires, ar",
+   "eligCode": "m",
+   "eligLabel": "Buenos Aires, ar",
+   "salary": "",
+   "date": "2026-08-28T18:59:28.932000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000146245705",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
   {
    "company": "Hellofresh",
    "title": "Senior Mobile Developer, Growth",
@@ -56,20 +84,6 @@
    "visa": false
   },
   {
-   "company": "Bjak",
-   "title": "iOS Software Engineer",
-   "stack": "iOS",
-   "level": "Mid",
-   "geo": "Germany",
-   "eligCode": "m",
-   "eligLabel": "Germany",
-   "salary": "",
-   "date": "2026-08-28T08:40:14+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/bjak/ios-software-engineer-germany-156787",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
    "company": "N26",
    "title": "Senior Android Engineer - Payments",
    "stack": "Android",
@@ -109,20 +123,6 @@
    "date": "2026-08-27T04:20:06+00:00",
    "url": "https://jobicy.com/jobs/144154-senior-android-sdk-engineer",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Senior Android SDK Engineer",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-08-27T04:20:06+00:00",
-   "url": "https://jobicy.com/jobs/144154-senior-android-sdk-engineer",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
