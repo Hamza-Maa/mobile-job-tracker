@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-08-30T11:34:57.928407+00:00",
- "totalRaw": 3445,
- "totalJobs": 23,
+ "generatedAt": "2026-08-31T13:09:55.834505+00:00",
+ "totalRaw": 3454,
+ "totalJobs": 22,
  "sources": {
   "Remotive": 152,
-  "Jobicy": 200,
+  "Jobicy": 206,
   "Arbeitnow": 450,
   "Himalayas": 20,
   "We Work Remotely": 90,
@@ -13,6 +13,34 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Deliveryhero",
+   "title": "iOS Software Engineer II",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "Singapore, sg",
+   "eligCode": "n",
+   "eligLabel": "Singapore, sg",
+   "salary": "",
+   "date": "2026-08-31T09:31:00.439000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000146430919",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
+  {
+   "company": "Jobicy RSS",
+   "title": "Android Engineer – Subscriptions",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-08-31T05:02:20+00:00",
+   "url": "https://jobicy.com/jobs/152141-android-engineer-subscriptions",
+   "src": "Jobicy RSS",
+   "visa": false
+  },
   {
    "company": "jetbrains",
    "title": "C++/Kotlin Software Developer (RustRover Debugger)",
@@ -38,34 +66,6 @@
    "salary": "",
    "date": "2026-08-29T15:40:08+00:00",
    "url": "https://www.arbeitnow.co.uk/jobs/companies/motorway/android-engineer-london-28972",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "Bloomwell Group GmbH",
-   "title": "Senior Flutter Developer (m/f/d)*",
-   "stack": "Flutter",
-   "level": "Senior",
-   "geo": "Office Frankfurt",
-   "eligCode": "m",
-   "eligLabel": "Office Frankfurt",
-   "salary": "",
-   "date": "2026-08-29T14:10:07+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/bloomwell-group-gmbh/senior-flutter-developer-office-frankfurt-497942",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "Ottonova",
-   "title": "Junior Software Engineer (m/f/d) - focus on iOS",
-   "stack": "iOS",
-   "level": "Junior",
-   "geo": "München",
-   "eligCode": "m",
-   "eligLabel": "München",
-   "salary": "",
-   "date": "2026-08-29T11:09:59+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/ottonova/junior-software-engineer-focus-on-ios-munchen-52025",
    "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
@@ -130,12 +130,12 @@
    "title": "Senior Android Engineer - Payments",
    "stack": "Android",
    "level": "Senior",
-   "geo": "Barcelona",
+   "geo": "Berlin",
    "eligCode": "m",
-   "eligLabel": "Barcelona",
+   "eligLabel": "Berlin",
    "salary": "",
-   "date": "2026-08-28T07:40:06+00:00",
-   "url": "https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846",
+   "date": "2026-08-28T07:39:43+00:00",
+   "url": "https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362",
    "src": "n26 (Greenhouse)",
    "visa": false
   },
@@ -221,20 +221,6 @@
    "date": "2026-08-26T03:36:51.054000+00:00",
    "url": "https://jobs.smartrecruiters.com/wise/744000145649689",
    "src": "wise (SmartRecruiters)",
-   "visa": false
-  },
-  {
-   "company": "Deliveryhero",
-   "title": "Software Engineer Trainee (Android)",
-   "stack": "Android",
-   "level": "Junior",
-   "geo": "Singapore, sg",
-   "eligCode": "n",
-   "eligLabel": "Singapore, sg",
-   "salary": "",
-   "date": "2026-08-25T11:01:13.778000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000145482999",
-   "src": "deliveryhero (SmartRecruiters)",
    "visa": false
   },
   {
