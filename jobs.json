@@ -1,18 +1,32 @@
 {
- "generatedAt": "2026-08-31T13:09:55.834505+00:00",
- "totalRaw": 3454,
- "totalJobs": 22,
+ "generatedAt": "2026-09-01T11:22:54.822031+00:00",
+ "totalRaw": 3422,
+ "totalJobs": 21,
  "sources": {
-  "Remotive": 152,
-  "Jobicy": 206,
+  "Remotive": 144,
+  "Jobicy": 205,
   "Arbeitnow": 450,
   "Himalayas": 20,
-  "We Work Remotely": 90,
+  "We Work Remotely": 91,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Deliveryhero",
+   "title": "Software Engineer Trainee (Android)",
+   "stack": "Android",
+   "level": "Junior",
+   "geo": "Singapore, sg",
+   "eligCode": "n",
+   "eligLabel": "Singapore, sg",
+   "salary": "",
+   "date": "2026-09-01T03:23:43.300000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000146610169",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
   {
    "company": "Deliveryhero",
    "title": "iOS Software Engineer II",
@@ -40,20 +54,6 @@
    "url": "https://jobicy.com/jobs/152141-android-engineer-subscriptions",
    "src": "Jobicy RSS",
    "visa": false
-  },
-  {
-   "company": "jetbrains",
-   "title": "C++/Kotlin Software Developer (RustRover Debugger)",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "Berlin; Munich; Remote",
-   "eligCode": "m",
-   "eligLabel": "Berlin; Munich; Remote",
-   "salary": "",
-   "date": "2026-08-30T05:55:12+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/jetbrains/remote-c-kotlin-software-developer-rustrover-debugger-176052",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": true
   },
   {
    "company": "Motorway",
@@ -137,20 +137,6 @@
    "date": "2026-08-28T07:39:43+00:00",
    "url": "https://n26.com/en-eu/careers/positions/8121362?gh_jid=8121362",
    "src": "n26 (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Adyen",
-   "title": "Senior Software Engineer (Android - Kotlin Expert)",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "Bengaluru",
-   "eligCode": "m",
-   "eligLabel": "Bengaluru",
-   "salary": "",
-   "date": "2026-08-28T06:48:50+00:00",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8098671",
-   "src": "adyen (Greenhouse)",
    "visa": false
   },
   {
