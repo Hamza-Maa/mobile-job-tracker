@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-02T10:56:29.806329+00:00",
- "totalRaw": 3430,
- "totalJobs": 22,
+ "generatedAt": "2026-09-03T10:55:40.744696+00:00",
+ "totalRaw": 3441,
+ "totalJobs": 19,
  "sources": {
   "Remotive": 144,
-  "Jobicy": 207,
+  "Jobicy": 203,
   "Arbeitnow": 450,
   "Himalayas": 20,
   "We Work Remotely": 92,
@@ -13,6 +13,48 @@
   "ATS companies OK": 22
  },
  "jobs": [
+  {
+   "company": "Adyen",
+   "title": "Staff Engineer - Payments (Mobile & Terminal Experiences)",
+   "stack": "Mobile",
+   "level": "Lead",
+   "geo": "Chicago",
+   "eligCode": "m",
+   "eligLabel": "Chicago",
+   "salary": "",
+   "date": "2026-09-03T03:22:13+00:00",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8103468",
+   "src": "adyen (Greenhouse)",
+   "visa": false
+  },
+  {
+   "company": "Hellofresh",
+   "title": "Senior Mobile Product Developer, Growth",
+   "stack": "Mobile",
+   "level": "Senior",
+   "geo": "Toronto, Ontario, Canada",
+   "eligCode": "n",
+   "eligLabel": "Toronto, Ontario, Canada",
+   "salary": "",
+   "date": "2026-09-02T18:23:34+00:00",
+   "url": "https://careers.hellofresh.com/global/en/job/7862406?gh_jid=7862406",
+   "src": "hellofresh (Greenhouse)",
+   "visa": false
+  },
+  {
+   "company": "Hellofresh",
+   "title": "Senior Mobile Product Engineer, Intelligent Platforms (all genders)",
+   "stack": "Mobile",
+   "level": "Senior",
+   "geo": "Warszawa, Masovian Voivodeship, Poland",
+   "eligCode": "m",
+   "eligLabel": "Warszawa, Masovian Voivodeship, Poland",
+   "salary": "",
+   "date": "2026-09-02T15:40:39+00:00",
+   "url": "https://careers.hellofresh.com/global/en/job/8173865?gh_jid=8173865",
+   "src": "hellofresh (Greenhouse)",
+   "visa": false
+  },
   {
    "company": "Binance",
    "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
@@ -84,48 +126,6 @@
    "visa": false
   },
   {
-   "company": "Deliveryhero",
-   "title": "iOS Software Engineer II",
-   "stack": "iOS",
-   "level": "Mid",
-   "geo": "Singapore, sg",
-   "eligCode": "n",
-   "eligLabel": "Singapore, sg",
-   "salary": "",
-   "date": "2026-08-31T09:31:00.439000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000146430919",
-   "src": "deliveryhero (SmartRecruiters)",
-   "visa": false
-  },
-  {
-   "company": "Deliveryhero",
-   "title": "Sr Software Engineer IOS",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "Buenos Aires, ar",
-   "eligCode": "m",
-   "eligLabel": "Buenos Aires, ar",
-   "salary": "",
-   "date": "2026-08-28T18:59:28.932000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000146245705",
-   "src": "deliveryhero (SmartRecruiters)",
-   "visa": false
-  },
-  {
-   "company": "Hellofresh",
-   "title": "Senior Mobile Developer, Growth",
-   "stack": "Mobile",
-   "level": "Senior",
-   "geo": "Toronto, Ontario, Canada",
-   "eligCode": "n",
-   "eligLabel": "Toronto, Ontario, Canada",
-   "salary": "",
-   "date": "2026-08-28T16:03:10+00:00",
-   "url": "https://careers.hellofresh.com/global/en/job/7862406?gh_jid=7862406",
-   "src": "hellofresh (Greenhouse)",
-   "visa": false
-  },
-  {
    "company": "Hellofresh",
    "title": "Senior Mobile Engineer - React Native, Platform/Infrastructure (all genders)",
    "stack": "React Native",
@@ -182,20 +182,6 @@
    "visa": false
   },
   {
-   "company": "Adyen",
-   "title": "Staff Engineer - Payments (Mobile & Terminal Experiences)",
-   "stack": "Mobile",
-   "level": "Lead",
-   "geo": "Chicago",
-   "eligCode": "m",
-   "eligLabel": "Chicago",
-   "salary": "",
-   "date": "2026-08-27T03:29:34+00:00",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8103468",
-   "src": "adyen (Greenhouse)",
-   "visa": false
-  },
-  {
    "company": "Future PLC",
    "title": "Lead Android Engineer",
    "stack": "Android",
@@ -207,34 +193,6 @@
    "date": "2026-08-26T04:57:47+00:00",
    "url": "https://jobicy.com/jobs/151697-lead-android-engineer",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Wise",
-   "title": "Senior iOS Engineer - Spend",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "Singapore, sg",
-   "eligCode": "n",
-   "eligLabel": "Singapore, sg",
-   "salary": "",
-   "date": "2026-08-26T03:38:27.065000+00:00",
-   "url": "https://jobs.smartrecruiters.com/wise/744000145649809",
-   "src": "wise (SmartRecruiters)",
-   "visa": false
-  },
-  {
-   "company": "Wise",
-   "title": "Android Engineer - Spend",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "Singapore, sg",
-   "eligCode": "n",
-   "eligLabel": "Singapore, sg",
-   "salary": "",
-   "date": "2026-08-26T03:36:51.054000+00:00",
-   "url": "https://jobs.smartrecruiters.com/wise/744000145649689",
-   "src": "wise (SmartRecruiters)",
    "visa": false
   },
   {
