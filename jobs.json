@@ -1,16 +1,17 @@
 {
- "generatedAt": "2026-09-03T10:55:40.744696+00:00",
- "totalRaw": 3441,
- "totalJobs": 19,
+ "generatedAt": "2026-09-04T10:55:33.987906+00:00",
+ "totalRaw": 3414,
+ "totalJobs": 16,
  "sources": {
-  "Remotive": 144,
-  "Jobicy": 203,
+  "Remotive": 136,
+  "Jobicy": 201,
   "Arbeitnow": 450,
   "Himalayas": 20,
-  "We Work Remotely": 92,
+  "We Work Remotely": 90,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
-  "ATS companies OK": 22
+  "ATS companies OK": 21,
+  "ATS failed": "solarisbank"
  },
  "jobs": [
   {
@@ -84,20 +85,6 @@
    "visa": false
   },
   {
-   "company": "Fanduel",
-   "title": "Software Engineer - Frontend (React / React Native)",
-   "stack": "React Native",
-   "level": "Mid",
-   "geo": "Edinburgh",
-   "eligCode": "m",
-   "eligLabel": "Edinburgh",
-   "salary": "",
-   "date": "2026-09-02T03:55:13+00:00",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/fanduel/software-engineer-frontend-react-react-native-edinburgh-328067",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
    "company": "N26",
    "title": "Junior iOS Engineer - Payments",
    "stack": "iOS",
@@ -109,20 +96,6 @@
    "date": "2026-09-01T14:55:07+00:00",
    "url": "https://n26.com/en-eu/careers/positions/8163939?gh_jid=8163939",
    "src": "n26 (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Deliveryhero",
-   "title": "Software Engineer Trainee (Android)",
-   "stack": "Android",
-   "level": "Junior",
-   "geo": "Singapore, sg",
-   "eligCode": "n",
-   "eligLabel": "Singapore, sg",
-   "salary": "",
-   "date": "2026-09-01T03:23:43.300000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000146610169",
-   "src": "deliveryhero (SmartRecruiters)",
    "visa": false
   },
   {
@@ -220,20 +193,6 @@
    "salary": "",
    "date": "2026-08-19T02:00:04+00:00",
    "url": "https://jobicy.com/jobs/147066-staff-android-engineer",
-   "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Grove Collaborative",
-   "title": "AI-First Android Engineer",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "USA",
-   "eligCode": "n",
-   "eligLabel": "USA",
-   "salary": "175–225k USD",
-   "date": "2026-08-16T16:32:48+00:00",
-   "url": "https://jobicy.com/jobs/150851-ai-first-android-engineer",
    "src": "Jobicy",
    "visa": false
   },
