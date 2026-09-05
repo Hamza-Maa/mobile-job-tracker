@@ -1,19 +1,74 @@
 {
- "generatedAt": "2026-09-04T10:55:33.987906+00:00",
- "totalRaw": 3414,
- "totalJobs": 16,
+ "generatedAt": "2026-09-05T10:16:08.925519+00:00",
+ "totalRaw": 3464,
+ "totalJobs": 17,
  "sources": {
-  "Remotive": 136,
+  "Remotive": 144,
   "Jobicy": 201,
   "Arbeitnow": 450,
   "Himalayas": 20,
-  "We Work Remotely": 90,
+  "We Work Remotely": 91,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
-  "ATS companies OK": 21,
-  "ATS failed": "solarisbank"
+  "ATS companies OK": 22
  },
  "jobs": [
+  {
+   "company": "Miquido",
+   "title": "Software Engineer (iOS)",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-09-05T10:05:53+00:00",
+   "url": "https://himalayas.app/companies/miquido/jobs/software-engineer-ios",
+   "src": "Himalayas",
+   "visa": false
+  },
+  {
+   "company": "idealo internet GmbH",
+   "title": "Senior iOS Engineer - Swift (m|w|d)",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "Berlin, Berlin, Deutschland",
+   "eligCode": "m",
+   "eligLabel": "Berlin, Berlin, Deutschland",
+   "salary": "",
+   "date": "2026-09-05T05:30:17+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/idealo-internet-gmbh/senior-ios-engineer-swift-mwd-berlin-330230",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Lemon.io",
+   "title": "Senior React Native Developer",
+   "stack": "React Native",
+   "level": "Senior",
+   "geo": "Anywhere in the World",
+   "eligCode": "y",
+   "eligLabel": "Worldwide",
+   "salary": "",
+   "date": "2026-09-04T15:56:51+00:00",
+   "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-react-native-developer-1",
+   "src": "We Work Remotely",
+   "visa": false
+  },
+  {
+   "company": "Maple Tales GmbH",
+   "title": "Working Student Software Engineer (Flutter) (m/f/d)",
+   "stack": "Flutter",
+   "level": "Junior",
+   "geo": "Frankfurt am Main",
+   "eligCode": "m",
+   "eligLabel": "Frankfurt am Main",
+   "salary": "",
+   "date": "2026-09-04T13:30:26+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/maple-tales-gmbh/working-student-software-engineer-flutter-frankfurt-am-main-255994",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "Adyen",
    "title": "Staff Engineer - Payments (Mobile & Terminal Experiences)",
@@ -71,20 +126,6 @@
    "visa": false
   },
   {
-   "company": "Jobicy RSS",
-   "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-09-02T04:55:29+00:00",
-   "url": "https://jobicy.com/jobs/150064-client-full-stack-engineer-im-chat-platform-android-focus",
-   "src": "Jobicy RSS",
-   "visa": false
-  },
-  {
    "company": "N26",
    "title": "Junior iOS Engineer - Payments",
    "stack": "iOS",
@@ -124,20 +165,6 @@
    "date": "2026-08-28T14:13:02+00:00",
    "url": "https://careers.hellofresh.com/global/en/job/8028117?gh_jid=8028117",
    "src": "hellofresh (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "N26",
-   "title": "Senior Android Engineer - Payments",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "Barcelona",
-   "eligCode": "m",
-   "eligLabel": "Barcelona",
-   "salary": "",
-   "date": "2026-08-28T07:40:06+00:00",
-   "url": "https://n26.com/en-eu/careers/positions/8143846?gh_jid=8143846",
-   "src": "n26 (Greenhouse)",
    "visa": false
   },
   {
@@ -222,20 +249,6 @@
    "date": "2026-08-05T22:23:33+00:00",
    "url": "https://job-boards.greenhouse.io/canonical/jobs/5150422",
    "src": "canonical (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Moonpay",
-   "title": "Senior/Staff React Native Engineer",
-   "stack": "React Native",
-   "level": "Lead",
-   "geo": "London - Hybrid",
-   "eligCode": "m",
-   "eligLabel": "London - Hybrid",
-   "salary": "",
-   "date": "2026-07-21T10:56:51.002000+00:00",
-   "url": "https://jobs.lever.co/moonpay/047bc8c2-a79b-4fd3-a57c-6052b585c768",
-   "src": "moonpay (Lever)",
    "visa": false
   }
  ]
