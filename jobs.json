@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-05T10:16:08.925519+00:00",
- "totalRaw": 3464,
+ "generatedAt": "2026-09-06T10:35:51.084390+00:00",
+ "totalRaw": 3590,
  "totalJobs": 17,
  "sources": {
-  "Remotive": 144,
-  "Jobicy": 201,
-  "Arbeitnow": 450,
+  "Remotive": 120,
+  "Jobicy": 199,
+  "Arbeitnow": 600,
   "Himalayas": 20,
   "We Work Remotely": 91,
   "WWR Programming": 25,
@@ -14,17 +14,31 @@
  },
  "jobs": [
   {
-   "company": "Miquido",
-   "title": "Software Engineer (iOS)",
-   "stack": "iOS",
+   "company": "Tracsis",
+   "title": "Flutter Developer",
+   "stack": "Flutter",
    "level": "Mid",
    "geo": "",
    "eligCode": "m",
    "eligLabel": "Unstated",
    "salary": "",
-   "date": "2026-09-05T10:05:53+00:00",
-   "url": "https://himalayas.app/companies/miquido/jobs/software-engineer-ios",
+   "date": "2026-09-06T10:30:46+00:00",
+   "url": "https://himalayas.app/companies/tracsis/jobs/flutter-developer",
    "src": "Himalayas",
+   "visa": false
+  },
+  {
+   "company": "DiliTrust",
+   "title": "Lead Mobile Engineer - React Native",
+   "stack": "React Native",
+   "level": "Lead",
+   "geo": "Paris - La Défense",
+   "eligCode": "m",
+   "eligLabel": "Paris - La Défense",
+   "salary": "",
+   "date": "2026-09-06T07:05:03+00:00",
+   "url": "https://www.arbeitnow.fr/jobs/companies/dilitrust/lead-mobile-engineer-react-native-paris-la-defense-182907",
+   "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
   {
@@ -53,20 +67,6 @@
    "date": "2026-09-04T15:56:51+00:00",
    "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-react-native-developer-1",
    "src": "We Work Remotely",
-   "visa": false
-  },
-  {
-   "company": "Maple Tales GmbH",
-   "title": "Working Student Software Engineer (Flutter) (m/f/d)",
-   "stack": "Flutter",
-   "level": "Junior",
-   "geo": "Frankfurt am Main",
-   "eligCode": "m",
-   "eligLabel": "Frankfurt am Main",
-   "salary": "",
-   "date": "2026-09-04T13:30:26+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/maple-tales-gmbh/working-student-software-engineer-flutter-frankfurt-am-main-255994",
-   "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
   {
