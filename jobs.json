@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-09-10T10:56:59.345778+00:00",
- "totalRaw": 3667,
- "totalJobs": 20,
+ "generatedAt": "2026-09-11T10:55:16.305124+00:00",
+ "totalRaw": 3660,
+ "totalJobs": 19,
  "sources": {
-  "Remotive": 136,
-  "Jobicy": 214,
+  "Remotive": 144,
+  "Jobicy": 212,
   "Arbeitnow": 600,
   "Himalayas": 20,
-  "We Work Remotely": 90,
+  "We Work Remotely": 89,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
-  "ATS companies OK": 22
+  "ATS companies OK": 23
  },
  "jobs": [
   {
@@ -123,20 +123,6 @@
    "date": "2026-09-07T16:04:59+00:00",
    "url": "https://n26.com/en-eu/careers/positions/8163941?gh_jid=8163941",
    "src": "n26 (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Deliveryhero",
-   "title": "Senior Android Engineer",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "Athens, gr",
-   "eligCode": "m",
-   "eligLabel": "Athens, gr",
-   "salary": "",
-   "date": "2026-09-07T11:06:45.460000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000147906975",
-   "src": "deliveryhero (SmartRecruiters)",
    "visa": false
   },
   {
