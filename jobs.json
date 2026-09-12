@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-11T10:55:16.305124+00:00",
- "totalRaw": 3660,
- "totalJobs": 19,
+ "generatedAt": "2026-09-12T10:22:19.319381+00:00",
+ "totalRaw": 3651,
+ "totalJobs": 18,
  "sources": {
-  "Remotive": 144,
-  "Jobicy": 212,
+  "Remotive": 128,
+  "Jobicy": 211,
   "Arbeitnow": 600,
   "Himalayas": 20,
   "We Work Remotely": 89,
@@ -53,20 +53,6 @@
    "date": "2026-09-08T18:48:25+00:00",
    "url": "https://jobicy.com/jobs/152833-senior-android-engineer-3",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Senior Android Engineer",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-09-08T18:48:25+00:00",
-   "url": "https://jobicy.com/jobs/152833-senior-android-engineer-3",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
