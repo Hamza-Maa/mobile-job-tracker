@@ -1,18 +1,46 @@
 {
- "generatedAt": "2026-09-14T12:16:49.030216+00:00",
- "totalRaw": 3644,
- "totalJobs": 19,
+ "generatedAt": "2026-09-15T11:24:51.615265+00:00",
+ "totalRaw": 3623,
+ "totalJobs": 21,
  "sources": {
-  "Remotive": 128,
-  "Jobicy": 222,
+  "Remotive": 120,
+  "Jobicy": 224,
   "Arbeitnow": 600,
   "Himalayas": 20,
-  "We Work Remotely": 87,
+  "We Work Remotely": 88,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Sharkninjaoperatingllc",
+   "title": "Senior Mobile Software Engineer",
+   "stack": "Mobile",
+   "level": "Senior",
+   "geo": "Battersea Power Station",
+   "eligCode": "m",
+   "eligLabel": "Battersea Power Station",
+   "salary": "",
+   "date": "2026-09-15T09:55:13+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/sharkninjaoperatingllc/senior-mobile-software-engineer-battersea-power-station-193463",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Magazino GmbH",
+   "title": "Robot Perception/ML Engineer (f/m/d) Autonomous Mobile Robots",
+   "stack": "Mobile",
+   "level": "Mid",
+   "geo": "Munich",
+   "eligCode": "m",
+   "eligLabel": "Munich",
+   "salary": "",
+   "date": "2026-09-14T18:14:19+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/magazino-gmbh/robot-perception-ml-engineer-autonomous-mobile-robots-munich-328175",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "Adyen",
    "title": "Android Engineer: Payment Client Foundations",
