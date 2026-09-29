@@ -1,18 +1,60 @@
 {
- "generatedAt": "2026-09-28T13:21:49.259469+00:00",
- "totalRaw": 3685,
- "totalJobs": 32,
+ "generatedAt": "2026-09-29T12:27:01.552585+00:00",
+ "totalRaw": 3675,
+ "totalJobs": 27,
  "sources": {
   "Remotive": 128,
-  "Jobicy": 226,
+  "Jobicy": 225,
   "Arbeitnow": 751,
   "Himalayas": 20,
-  "We Work Remotely": 81,
+  "We Work Remotely": 85,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Neuverge Tron",
+   "title": "Senior iOS Developer (f/m/d)",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "Munich, Germany",
+   "eligCode": "m",
+   "eligLabel": "Munich, Germany",
+   "salary": "",
+   "date": "2026-09-29T11:40:03+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/neuverge-tron/senior-ios-developer-munich-151544",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Trading212",
+   "title": "Senior Frontend Engineer (Kotlin) - Frontend Core",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "Berlin",
+   "eligCode": "m",
+   "eligLabel": "Berlin",
+   "salary": "",
+   "date": "2026-09-29T08:40:02+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/trading212/senior-frontend-engineer-kotlin-frontend-core-berlin-319795",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Wise",
+   "title": "Senior Android Software Engineer - Grow",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "London, gb",
+   "eligCode": "m",
+   "eligLabel": "London, gb",
+   "salary": "",
+   "date": "2026-09-28T14:02:49.296000+00:00",
+   "url": "https://jobs.smartrecruiters.com/wise/744000152184007",
+   "src": "wise (SmartRecruiters)",
+   "visa": false
+  },
   {
    "company": "Wise",
    "title": "Senior iOS Engineer – Send Experience",
@@ -126,20 +168,6 @@
    "visa": false
   },
   {
-   "company": "Bjak",
-   "title": "Mobile Application Developer - AI Neobank App",
-   "stack": "Mobile",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-09-28T05:01:37+00:00",
-   "url": "https://himalayas.app/companies/bjak/jobs/mobile-application-developer-ai-neobank-app-7461560433",
-   "src": "Himalayas",
-   "visa": false
-  },
-  {
    "company": "Deliveryhero",
    "title": "iOS Software Engineer II",
    "stack": "iOS",
@@ -154,48 +182,6 @@
    "visa": false
   },
   {
-   "company": "BeReal",
-   "title": "Staff iOS Engineer, Media Foundations - BeReal",
-   "stack": "iOS",
-   "level": "Lead",
-   "geo": "Paris",
-   "eligCode": "m",
-   "eligLabel": "Paris",
-   "salary": "",
-   "date": "2026-09-27T10:40:03+00:00",
-   "url": "https://www.arbeitnow.fr/jobs/companies/bereal/staff-ios-engineer-media-foundations-bereal-paris-4354",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "BeReal",
-   "title": "Senior iOS Engineer, Media Foundations - BeReal",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "Paris",
-   "eligCode": "m",
-   "eligLabel": "Paris",
-   "salary": "",
-   "date": "2026-09-27T10:40:03+00:00",
-   "url": "https://www.arbeitnow.fr/jobs/companies/bereal/senior-ios-engineer-media-foundations-bereal-paris-146688",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "BeReal",
-   "title": "Staff iOS Engineer - BeReal",
-   "stack": "iOS",
-   "level": "Lead",
-   "geo": "Paris",
-   "eligCode": "m",
-   "eligLabel": "Paris",
-   "salary": "",
-   "date": "2026-09-27T10:40:03+00:00",
-   "url": "https://www.arbeitnow.fr/jobs/companies/bereal/staff-ios-engineer-bereal-paris-82499",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
    "company": "Future PLC",
    "title": "Lead Android Engineer",
    "stack": "Android",
@@ -207,20 +193,6 @@
    "date": "2026-09-26T11:00:26+00:00",
    "url": "https://jobicy.com/jobs/151697-lead-android-engineer",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Lead Android Engineer",
-   "stack": "Android",
-   "level": "Lead",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-09-26T11:00:26+00:00",
-   "url": "https://jobicy.com/jobs/151697-lead-android-engineer",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
@@ -252,20 +224,6 @@
    "visa": false
   },
   {
-   "company": "Adyen",
-   "title": "Software Engineer II (Kotlin) - Core Experience",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "Chicago",
-   "eligCode": "m",
-   "eligLabel": "Chicago",
-   "salary": "",
-   "date": "2026-09-25T15:15:54+00:00",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8210671",
-   "src": "adyen (Greenhouse)",
-   "visa": false
-  },
-  {
    "company": "Hellofresh",
    "title": "Senior Mobile Engineer - React Native, Platform/Infrastructure (all genders)",
    "stack": "React Native",
@@ -280,20 +238,6 @@
    "visa": false
   },
   {
-   "company": "Adventure Travel 365",
-   "title": "Senior Full-Stack Developer - Marketplace Web &amp; Mobile Platform",
-   "stack": "Mobile",
-   "level": "Senior",
-   "geo": "Anywhere in the World",
-   "eligCode": "y",
-   "eligLabel": "Worldwide",
-   "salary": "",
-   "date": "2026-09-21T10:14:35+00:00",
-   "url": "https://weworkremotely.com/remote-jobs/adventure-travel-365-senior-full-stack-developer-marketplace-web-mobile-platform",
-   "src": "We Work Remotely",
-   "visa": false
-  },
-  {
    "company": "AlphaSense",
    "title": "Staff Android Engineer",
    "stack": "Android",
@@ -305,20 +249,6 @@
    "date": "2026-09-20T04:45:25+00:00",
    "url": "https://jobicy.com/jobs/147066-staff-android-engineer",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Wise",
-   "title": "Senior iOS Engineer II - Account Mobile",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "London, gb",
-   "eligCode": "m",
-   "eligLabel": "London, gb",
-   "salary": "",
-   "date": "2026-09-18T16:32:12.255000+00:00",
-   "url": "https://jobs.smartrecruiters.com/wise/744000150420594",
-   "src": "wise (SmartRecruiters)",
    "visa": false
   },
   {
