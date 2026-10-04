@@ -1,18 +1,32 @@
 {
- "generatedAt": "2026-10-03T11:20:37.451792+00:00",
- "totalRaw": 3638,
- "totalJobs": 30,
+ "generatedAt": "2026-10-04T12:02:10.823448+00:00",
+ "totalRaw": 3647,
+ "totalJobs": 26,
  "sources": {
-  "Remotive": 128,
-  "Jobicy": 147,
+  "Remotive": 144,
+  "Jobicy": 142,
   "Arbeitnow": 750,
   "Himalayas": 20,
-  "We Work Remotely": 90,
+  "We Work Remotely": 89,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "sumup",
+   "title": "Senior iOS Engineer (KMP) - POS",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "Paris, Paris",
+   "eligCode": "m",
+   "eligLabel": "Paris, Paris",
+   "salary": "",
+   "date": "2026-10-04T01:55:04+00:00",
+   "url": "https://www.arbeitnow.fr/jobs/companies/sumup/senior-ios-engineer-kmp-pos-paris-paris-283595",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "Binance",
    "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
@@ -42,34 +56,6 @@
    "visa": false
   },
   {
-   "company": "Snke",
-   "title": "Senior Fullstack Engineer — Mobile Healthcare Platform",
-   "stack": "Mobile",
-   "level": "Senior",
-   "geo": "München",
-   "eligCode": "m",
-   "eligLabel": "München",
-   "salary": "",
-   "date": "2026-10-03T02:09:18+00:00",
-   "url": "https://www.arbeitnow.com/jobs/companies/snke/senior-fullstack-engineer-mobile-healthcare-platform-munchen-194937",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "ION Group",
-   "title": "Mobile Team Tech Lead, London, Contractor",
-   "stack": "Mobile",
-   "level": "Lead",
-   "geo": "London",
-   "eligCode": "m",
-   "eligLabel": "London",
-   "salary": "",
-   "date": "2026-10-03T00:04:39+00:00",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/ion-group/mobile-team-tech-lead-london-contractor-127014",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
    "company": "Voodoo",
    "title": "Senior iOS Engineer",
    "stack": "iOS",
@@ -95,20 +81,6 @@
    "date": "2026-10-02T16:45:08+00:00",
    "url": "https://job-boards.greenhouse.io/adyen/jobs/8210671",
    "src": "adyen (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "SumUp",
-   "title": "Senior iOS Engineer (KMP) - POS",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "Paris, France",
-   "eligCode": "m",
-   "eligLabel": "Paris, France",
-   "salary": "",
-   "date": "2026-10-02T15:45:30+00:00",
-   "url": "https://www.arbeitnow.fr/jobs/companies/sumup/senior-ios-engineer-kmp-pos-paris-217279",
-   "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
   {
@@ -350,20 +322,6 @@
    "visa": false
   },
   {
-   "company": "Future PLC",
-   "title": "Lead Android Engineer",
-   "stack": "Android",
-   "level": "Lead",
-   "geo": "USA",
-   "eligCode": "n",
-   "eligLabel": "USA",
-   "salary": "190–230k USD",
-   "date": "2026-09-26T11:00:26+00:00",
-   "url": "https://jobicy.com/jobs/151697-lead-android-engineer",
-   "src": "Jobicy",
-   "visa": false
-  },
-  {
    "company": "Hellofresh",
    "title": "Senior Mobile Product Developer, Growth",
    "stack": "Mobile",
@@ -416,20 +374,6 @@
    "salary": "",
    "date": "2026-09-02T15:40:39+00:00",
    "url": "https://careers.hellofresh.com/global/en/job/8173865?gh_jid=8173865",
-   "src": "hellofresh (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Hellofresh",
-   "title": "Senior React Native Product Engineer, Consumer Alliance (all genders)",
-   "stack": "React Native",
-   "level": "Senior",
-   "geo": "Warszawa, Masovian Voivodeship, Poland",
-   "eligCode": "m",
-   "eligLabel": "Warszawa, Masovian Voivodeship, Poland",
-   "salary": "",
-   "date": "2026-08-20T11:55:51+00:00",
-   "url": "https://careers.hellofresh.com/global/en/job/8093854?gh_jid=8093854",
    "src": "hellofresh (Greenhouse)",
    "visa": false
   }
