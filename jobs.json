@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-04T12:02:10.823448+00:00",
- "totalRaw": 3647,
- "totalJobs": 26,
+ "generatedAt": "2026-10-05T14:04:48.951061+00:00",
+ "totalRaw": 3620,
+ "totalJobs": 28,
  "sources": {
-  "Remotive": 144,
-  "Jobicy": 142,
+  "Remotive": 136,
+  "Jobicy": 140,
   "Arbeitnow": 750,
   "Himalayas": 20,
   "We Work Remotely": 89,
@@ -13,6 +13,48 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Adyen",
+   "title": "Senior Software Engineer (Android - Kotlin Expert)",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "Bengaluru",
+   "eligCode": "m",
+   "eligLabel": "Bengaluru",
+   "salary": "",
+   "date": "2026-10-05T10:22:58+00:00",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8098671",
+   "src": "adyen (Greenhouse)",
+   "visa": false
+  },
+  {
+   "company": "Gymshark",
+   "title": "Senior Android Engineer",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "Solihull",
+   "eligCode": "m",
+   "eligLabel": "Solihull",
+   "salary": "",
+   "date": "2026-10-04T12:55:05+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/gymshark/senior-android-engineer-solihull-402381",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Gymshark",
+   "title": "Mobile Engineer - IOS",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "Solihull",
+   "eligCode": "m",
+   "eligLabel": "Solihull",
+   "salary": "",
+   "date": "2026-10-04T12:55:05+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/gymshark/mobile-engineer-ios-solihull-190296",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "sumup",
    "title": "Senior iOS Engineer (KMP) - POS",
@@ -39,20 +81,6 @@
    "date": "2026-10-03T03:30:25+00:00",
    "url": "https://jobicy.com/jobs/150064-client-full-stack-engineer-im-chat-platform-android-focus",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-03T03:30:25+00:00",
-   "url": "https://jobicy.com/jobs/150064-client-full-stack-engineer-im-chat-platform-android-focus",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
@@ -350,16 +378,16 @@
    "visa": false
   },
   {
-   "company": "Lemon.io",
-   "title": "Senior React Native Developer",
-   "stack": "React Native",
+   "company": "Adventure Travel 365",
+   "title": "Senior Full-Stack Developer - Marketplace Web &amp; Mobile Platform",
+   "stack": "Mobile",
    "level": "Senior",
    "geo": "Anywhere in the World",
    "eligCode": "y",
    "eligLabel": "Worldwide",
    "salary": "",
-   "date": "2026-09-04T15:56:51+00:00",
-   "url": "https://weworkremotely.com/remote-jobs/lemon-io-senior-react-native-developer-1",
+   "date": "2026-09-21T10:14:35+00:00",
+   "url": "https://weworkremotely.com/remote-jobs/adventure-travel-365-senior-full-stack-developer-marketplace-web-mobile-platform",
    "src": "WWR Programming",
    "visa": false
   },
