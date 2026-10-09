@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-08T13:05:55.292418+00:00",
- "totalRaw": 3648,
- "totalJobs": 32,
+ "generatedAt": "2026-10-09T12:52:27.323504+00:00",
+ "totalRaw": 3653,
+ "totalJobs": 30,
  "sources": {
-  "Remotive": 152,
-  "Jobicy": 136,
+  "Remotive": 136,
+  "Jobicy": 148,
   "Arbeitnow": 750,
   "Himalayas": 20,
   "We Work Remotely": 89,
@@ -14,18 +14,32 @@
  },
  "jobs": [
   {
-   "company": "Deliveroo",
-   "title": "Software Engineer II - Android",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "London",
+   "company": "Wise",
+   "title": "Senior iOS Engineer II - Account Mobile",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "London, gb",
    "eligCode": "m",
-   "eligLabel": "London",
+   "eligLabel": "London, gb",
    "salary": "",
-   "date": "2026-10-08T09:55:15+00:00",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/deliveroo/software-engineer-ii-android-london-154111",
-   "src": "Arbeitnow (DE/EU)",
+   "date": "2026-10-09T08:09:40.142000+00:00",
+   "url": "https://jobs.smartrecruiters.com/wise/744000154612859",
+   "src": "wise (SmartRecruiters)",
    "visa": false
+  },
+  {
+   "company": "Lucis",
+   "title": "Mobile frontend engineering",
+   "stack": "Mobile",
+   "level": "Mid",
+   "geo": "Paris",
+   "eligCode": "m",
+   "eligLabel": "Paris",
+   "salary": "",
+   "date": "2026-10-09T04:40:06+00:00",
+   "url": "https://www.arbeitnow.fr/jobs/companies/lucis/mobile-frontend-engineering-paris-55357",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": true
   },
   {
    "company": "Gismart",
@@ -70,20 +84,6 @@
    "visa": false
   },
   {
-   "company": "Jobicy RSS",
-   "title": "Senior Android Engineer (Kotlin &amp; AWS)",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-06T17:38:26+00:00",
-   "url": "https://jobicy.com/jobs/154755-senior-android-engineer-kotlin-aws",
-   "src": "Jobicy RSS",
-   "visa": false
-  },
-  {
    "company": "Eight Sleep",
    "title": "Senior Software Engineer - Mobile (Android)",
    "stack": "Android",
@@ -95,20 +95,6 @@
    "date": "2026-10-06T17:36:45+00:00",
    "url": "https://jobicy.com/jobs/154745-senior-software-engineer-mobile-android",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Senior Software Engineer – Mobile (Android)",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-06T17:36:45+00:00",
-   "url": "https://jobicy.com/jobs/154745-senior-software-engineer-mobile-android",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
@@ -221,20 +207,6 @@
    "date": "2026-10-02T16:45:08+00:00",
    "url": "https://job-boards.greenhouse.io/adyen/jobs/8210671",
    "src": "adyen (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Wise",
-   "title": "Senior iOS Engineer II - Account Mobile",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "London, gb",
-   "eligCode": "m",
-   "eligLabel": "London, gb",
-   "salary": "",
-   "date": "2026-10-02T08:25:40.917000+00:00",
-   "url": "https://jobs.smartrecruiters.com/wise/744000153123044",
-   "src": "wise (SmartRecruiters)",
    "visa": false
   },
   {
