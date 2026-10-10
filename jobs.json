@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-09T12:52:27.323504+00:00",
- "totalRaw": 3653,
- "totalJobs": 30,
+ "generatedAt": "2026-10-10T12:10:08.544460+00:00",
+ "totalRaw": 3670,
+ "totalJobs": 33,
  "sources": {
-  "Remotive": 136,
-  "Jobicy": 148,
+  "Remotive": 144,
+  "Jobicy": 144,
   "Arbeitnow": 750,
   "Himalayas": 20,
   "We Work Remotely": 89,
@@ -13,6 +13,62 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Kraken",
+   "title": "Senior Software Engineer - React Native - Consumer",
+   "stack": "React Native",
+   "level": "Senior",
+   "geo": "United Kingdom",
+   "eligCode": "m",
+   "eligLabel": "United Kingdom",
+   "salary": "",
+   "date": "2026-10-10T06:40:08+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/kraken/senior-software-engineer-react-native-consumer-london-345417",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Bling",
+   "title": "Junior Flutter Developer (m/w/d) – Bling",
+   "stack": "Flutter",
+   "level": "Junior",
+   "geo": "Berlin",
+   "eligCode": "m",
+   "eligLabel": "Berlin",
+   "salary": "",
+   "date": "2026-10-10T00:30:37+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/bling/junior-flutter-developer-bling-berlin-62413",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "fanaticscollectibles",
+   "title": "Senior Engineer, iOS - Instant Rips",
+   "stack": "iOS",
+   "level": "Senior",
+   "geo": "London",
+   "eligCode": "m",
+   "eligLabel": "London",
+   "salary": "",
+   "date": "2026-10-09T18:55:05+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/fanaticscollectibles/senior-engineer-ios-instant-rips-london-280369",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "fanaticscollectibles",
+   "title": "Senior Engineer, Android - Instant Rips",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "London",
+   "eligCode": "m",
+   "eligLabel": "London",
+   "salary": "",
+   "date": "2026-10-09T18:55:05+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/fanaticscollectibles/senior-engineer-android-instant-rips-london-386737",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "Wise",
    "title": "Senior iOS Engineer II - Account Mobile",
@@ -179,20 +235,6 @@
    "date": "2026-10-05T10:22:58+00:00",
    "url": "https://job-boards.greenhouse.io/adyen/jobs/8098671",
    "src": "adyen (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Binance",
-   "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "APAC",
-   "eligCode": "n",
-   "eligLabel": "APAC",
-   "salary": "",
-   "date": "2026-10-03T03:30:25+00:00",
-   "url": "https://jobicy.com/jobs/150064-client-full-stack-engineer-im-chat-platform-android-focus",
-   "src": "Jobicy",
    "visa": false
   },
   {
