@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-10-12T14:53:36.677133+00:00",
- "totalRaw": 3606,
+ "generatedAt": "2026-10-13T13:51:56.666508+00:00",
+ "totalRaw": 3759,
  "totalJobs": 26,
  "sources": {
-  "Remotive": 120,
-  "Jobicy": 135,
-  "Arbeitnow": 750,
+  "Remotive": 128,
+  "Jobicy": 137,
+  "Arbeitnow": 900,
   "Himalayas": 20,
   "We Work Remotely": 89,
   "WWR Programming": 25,
@@ -13,6 +13,20 @@
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "Adyen",
+   "title": "Engineering Manager - Android / iOS",
+   "stack": "Android",
+   "level": "Lead",
+   "geo": "Amsterdam",
+   "eligCode": "m",
+   "eligLabel": "Amsterdam",
+   "salary": "",
+   "date": "2026-10-12T17:47:07+00:00",
+   "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155",
+   "src": "adyen (Greenhouse)",
+   "visa": false
+  },
   {
    "company": "Mattermost",
    "title": "Senior Mobile Engineer",
@@ -25,20 +39,6 @@
    "date": "2026-10-11T05:59:14+00:00",
    "url": "https://jobicy.com/jobs/154994-senior-mobile-engineer",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Senior Mobile Engineer",
-   "stack": "Mobile",
-   "level": "Senior",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-11T05:59:14+00:00",
-   "url": "https://jobicy.com/jobs/154994-senior-mobile-engineer",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
