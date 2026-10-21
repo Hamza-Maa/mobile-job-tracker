@@ -1,18 +1,74 @@
 {
- "generatedAt": "2026-10-20T11:11:03.360724+00:00",
- "totalRaw": 3670,
- "totalJobs": 34,
+ "generatedAt": "2026-10-21T11:26:26.206559+00:00",
+ "totalRaw": 3696,
+ "totalJobs": 33,
  "sources": {
   "Remotive": 80,
-  "Jobicy": 141,
+  "Jobicy": 148,
   "Arbeitnow": 900,
   "Himalayas": 20,
-  "We Work Remotely": 91,
+  "We Work Remotely": 92,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "AlphaSense",
+   "title": "Staff Android Engineer",
+   "stack": "Android",
+   "level": "Lead",
+   "geo": "Europe,  UK",
+   "eligCode": "m",
+   "eligLabel": "Europe,  UK",
+   "salary": "",
+   "date": "2026-10-21T02:59:17+00:00",
+   "url": "https://jobicy.com/jobs/147066-staff-android-engineer",
+   "src": "Jobicy",
+   "visa": false
+  },
+  {
+   "company": "Jobicy RSS",
+   "title": "Staff Android Engineer",
+   "stack": "Android",
+   "level": "Lead",
+   "geo": "",
+   "eligCode": "m",
+   "eligLabel": "Unstated",
+   "salary": "",
+   "date": "2026-10-21T02:59:17+00:00",
+   "url": "https://jobicy.com/jobs/147066-staff-android-engineer",
+   "src": "Jobicy RSS",
+   "visa": false
+  },
+  {
+   "company": "Street Group",
+   "title": "Mobile Developer - L5",
+   "stack": "Mobile",
+   "level": "Mid",
+   "geo": "Manchester",
+   "eligCode": "m",
+   "eligLabel": "Manchester",
+   "salary": "",
+   "date": "2026-10-20T23:40:15+00:00",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/street-group/mobile-developer-l5-manchester-30871",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "ElevenLabs",
+   "title": "Mobile Engineer - ElevenMusic",
+   "stack": "Mobile",
+   "level": "Mid",
+   "geo": "Remote / Remote",
+   "eligCode": "m",
+   "eligLabel": "Remote / Remote",
+   "salary": "",
+   "date": "2026-10-20T17:40:41+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-mobile-engineer-elevenmusic-390337",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "dkbcodefactory",
    "title": "Junior Android Developer",
@@ -24,20 +80,6 @@
    "salary": "",
    "date": "2026-10-20T08:55:26+00:00",
    "url": "https://www.arbeitnow.com/jobs/companies/dkbcodefactory/junior-android-developer-berlin-367608",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "Mlabs",
-   "title": "Lead Mobile Engineer",
-   "stack": "Mobile",
-   "level": "Lead",
-   "geo": "Paris, France",
-   "eligCode": "m",
-   "eligLabel": "Paris, France",
-   "salary": "",
-   "date": "2026-10-20T01:20:20+00:00",
-   "url": "https://www.arbeitnow.fr/jobs/companies/mlabs/lead-mobile-engineer-paris-172318",
    "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
@@ -56,6 +98,48 @@
    "visa": false
   },
   {
+   "company": "Mlabs",
+   "title": "Lead Mobile Engineer",
+   "stack": "Mobile",
+   "level": "Lead",
+   "geo": "Heesch, Netherlands",
+   "eligCode": "m",
+   "eligLabel": "Heesch, Netherlands",
+   "salary": "",
+   "date": "2026-10-19T21:20:07+00:00",
+   "url": "https://www.arbeitnow.nl/jobs/companies/mlabs/lead-mobile-engineer-heesch-155530",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Deliveryhero",
+   "title": "Software Engineer IOS",
+   "stack": "iOS",
+   "level": "Mid",
+   "geo": "Montevideo, uy",
+   "eligCode": "m",
+   "eligLabel": "Montevideo, uy",
+   "salary": "",
+   "date": "2026-10-19T19:38:25.766000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156410272",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
+  {
+   "company": "Deliveryhero",
+   "title": "Software Engineer Android",
+   "stack": "Android",
+   "level": "Mid",
+   "geo": "Montevideo, uy",
+   "eligCode": "m",
+   "eligLabel": "Montevideo, uy",
+   "salary": "",
+   "date": "2026-10-19T19:13:42.425000+00:00",
+   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156405716",
+   "src": "deliveryhero (SmartRecruiters)",
+   "visa": false
+  },
+  {
    "company": "Alma",
    "title": "Mobile Engineer - React Native (Paris or Remote France)",
    "stack": "React Native",
@@ -67,20 +151,6 @@
    "date": "2026-10-19T16:50:54+00:00",
    "url": "https://jobicy.com/jobs/155885-mobile-engineer-react-native-paris-or-remote-france",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Mobile Engineer – React Native (Paris or Remote France)",
-   "stack": "React Native",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-19T16:50:54+00:00",
-   "url": "https://jobicy.com/jobs/155885-mobile-engineer-react-native-paris-or-remote-france",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
@@ -98,34 +168,6 @@
    "visa": false
   },
   {
-   "company": "Jobicy RSS",
-   "title": "Staff Engineer – Mobile/Kotlin",
-   "stack": "Android",
-   "level": "Lead",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-19T13:22:04+00:00",
-   "url": "https://jobicy.com/jobs/155839-staff-engineer-mobile-kotlin",
-   "src": "Jobicy RSS",
-   "visa": false
-  },
-  {
-   "company": "Motorway",
-   "title": "Android Engineer",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "London",
-   "eligCode": "m",
-   "eligLabel": "London",
-   "salary": "",
-   "date": "2026-10-19T02:40:18+00:00",
-   "url": "https://www.arbeitnow.co.uk/jobs/companies/motorway/android-engineer-london-484970",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
    "company": "Finom",
    "title": "Senior iOS Developer (Remote)",
    "stack": "iOS",
@@ -136,20 +178,6 @@
    "salary": "",
    "date": "2026-10-18T23:07:38+00:00",
    "url": "https://www.arbeitnow.nl/jobs/companies/finom/senior-ios-developer-remote-netherlands-311296",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
-   "company": "Learned",
-   "title": "Medior Web & Mobile Full Stack Developer",
-   "stack": "Mobile",
-   "level": "Mid",
-   "geo": "Utrecht, Utrecht, Nederland",
-   "eligCode": "m",
-   "eligLabel": "Utrecht, Utrecht, Nederland",
-   "salary": "",
-   "date": "2026-10-18T02:32:11+00:00",
-   "url": "https://www.arbeitnow.nl/jobs/companies/learned/medior-web-mobile-full-stack-developer-utrecht-375740",
    "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
@@ -193,20 +221,6 @@
    "date": "2026-10-16T16:54:02.128000+00:00",
    "url": "https://jobs.smartrecruiters.com/wise/744000156046677",
    "src": "wise (SmartRecruiters)",
-   "visa": false
-  },
-  {
-   "company": "Deliveryhero",
-   "title": "Android Engineer I, Local Shops - Quick Commerce",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "Barcelona, es",
-   "eligCode": "m",
-   "eligLabel": "Barcelona, es",
-   "salary": "",
-   "date": "2026-10-16T10:42:30.751000+00:00",
-   "url": "https://jobs.smartrecruiters.com/deliveryhero/744000155965149",
-   "src": "deliveryhero (SmartRecruiters)",
    "visa": false
   },
   {
@@ -406,20 +420,6 @@
    "visa": false
   },
   {
-   "company": "Oowlish Technology",
-   "title": "Senior iOS Engineer (Swift & AWS)",
-   "stack": "iOS",
-   "level": "Senior",
-   "geo": "Argentina,  Brazil,  Mexico",
-   "eligCode": "n",
-   "eligLabel": "Argentina,  Brazil,  Mexico",
-   "salary": "",
-   "date": "2026-10-13T20:08:25+00:00",
-   "url": "https://jobicy.com/jobs/155230-senior-ios-engineer-swift-aws",
-   "src": "Jobicy",
-   "visa": false
-  },
-  {
    "company": "Adyen",
    "title": "Engineering Manager - Android / iOS",
    "stack": "Android",
@@ -473,20 +473,6 @@
    "date": "2026-09-30T18:11:26+00:00",
    "url": "https://traderepublic.com/en-de/about?jobId=7528749003&gh_jid=7528749003",
    "src": "traderepublicbank (Greenhouse)",
-   "visa": false
-  },
-  {
-   "company": "Adventure Travel 365",
-   "title": "Senior Full-Stack Developer - Marketplace Web &amp; Mobile Platform",
-   "stack": "Mobile",
-   "level": "Senior",
-   "geo": "Anywhere in the World",
-   "eligCode": "y",
-   "eligLabel": "Worldwide",
-   "salary": "",
-   "date": "2026-09-21T10:14:35+00:00",
-   "url": "https://weworkremotely.com/remote-jobs/adventure-travel-365-senior-full-stack-developer-marketplace-web-mobile-platform",
-   "src": "WWR Programming",
    "visa": false
   }
  ]
