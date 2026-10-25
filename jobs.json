@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-24T10:35:48.426049+00:00",
- "totalRaw": 3750,
- "totalJobs": 31,
+ "generatedAt": "2026-10-25T11:00:15.872386+00:00",
+ "totalRaw": 3753,
+ "totalJobs": 29,
  "sources": {
   "Remotive": 80,
-  "Jobicy": 165,
+  "Jobicy": 172,
   "Arbeitnow": 900,
   "Himalayas": 20,
   "We Work Remotely": 95,
@@ -14,17 +14,17 @@
  },
  "jobs": [
   {
-   "company": "Jobicy RSS",
-   "title": "Web Frontend Engineer – JS, CSS, React, Flutter",
-   "stack": "Flutter",
-   "level": "Mid",
-   "geo": "",
+   "company": "Creetion B.V.",
+   "title": "Senior Java/Kotlin Engineer",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "Breda",
    "eligCode": "m",
-   "eligLabel": "Unstated",
+   "eligLabel": "Breda",
    "salary": "",
-   "date": "2026-10-24T03:35:09+00:00",
-   "url": "https://jobicy.com/jobs/149527-web-frontend-engineer-js-css-react-flutter",
-   "src": "Jobicy RSS",
+   "date": "2026-10-25T09:00:55+00:00",
+   "url": "https://www.arbeitnow.nl/jobs/companies/creetion-bv/senior-java-kotlin-engineer-breda-321059",
+   "src": "Arbeitnow (DE/EU)",
    "visa": false
   },
   {
@@ -84,20 +84,6 @@
    "visa": false
   },
   {
-   "company": "Jobicy RSS",
-   "title": "Senior Android Engineer",
-   "stack": "Android",
-   "level": "Senior",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-23T18:57:35+00:00",
-   "url": "https://jobicy.com/jobs/156680-senior-android-engineer-4",
-   "src": "Jobicy RSS",
-   "visa": false
-  },
-  {
    "company": "dscout",
    "title": "Mobile Principal Software Engineer",
    "stack": "Mobile",
@@ -109,20 +95,6 @@
    "date": "2026-10-23T17:56:34+00:00",
    "url": "https://jobicy.com/jobs/156651-mobile-principal-software-engineer",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "Mobile Principal Software Engineer",
-   "stack": "Mobile",
-   "level": "Lead",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-10-23T17:56:34+00:00",
-   "url": "https://jobicy.com/jobs/156651-mobile-principal-software-engineer",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
