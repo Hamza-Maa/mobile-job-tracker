@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-08T12:59:34.073781+00:00",
- "totalRaw": 3859,
- "totalJobs": 35,
+ "generatedAt": "2026-11-09T15:41:28.882455+00:00",
+ "totalRaw": 3855,
+ "totalJobs": 34,
  "sources": {
-  "Remotive": 104,
-  "Jobicy": 172,
+  "Remotive": 96,
+  "Jobicy": 173,
   "Arbeitnow": 900,
   "Himalayas": 20,
   "We Work Remotely": 100,
@@ -42,20 +42,6 @@
    "visa": false
   },
   {
-   "company": "Datadog",
-   "title": "Manager I, Engineering - Client SDKs (Mobile & Browser)",
-   "stack": "Mobile",
-   "level": "Lead",
-   "geo": "Paris",
-   "eligCode": "m",
-   "eligLabel": "Paris",
-   "salary": "",
-   "date": "2026-11-07T03:55:18+00:00",
-   "url": "https://www.arbeitnow.fr/jobs/companies/datadog/manager-i-engineering-client-sdks-mobile-browser-paris-39066",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
    "company": "Klaviyo",
    "title": "Software Engineer II (Mobile Developer - Android/Kotlin)",
    "stack": "Android",
@@ -74,12 +60,12 @@
    "title": "Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)",
    "stack": "Mobile",
    "level": "Lead",
-   "geo": "Remote - Canada",
+   "geo": "Remote - USA",
    "eligCode": "n",
-   "eligLabel": "Remote - Canada",
+   "eligLabel": "Remote - USA",
    "salary": "",
-   "date": "2026-11-06T16:55:54+00:00",
-   "url": "https://www.coinbase.com/careers/positions/8359446?gh_jid=8359446",
+   "date": "2026-11-06T16:47:32+00:00",
+   "url": "https://www.coinbase.com/careers/positions/8356850?gh_jid=8356850",
    "src": "coinbase (Greenhouse)",
    "visa": false
   },
