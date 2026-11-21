@@ -1,18 +1,60 @@
 {
- "generatedAt": "2026-11-20T15:06:38.490443+00:00",
- "totalRaw": 3834,
- "totalJobs": 38,
+ "generatedAt": "2026-11-21T14:26:01.372798+00:00",
+ "totalRaw": 3814,
+ "totalJobs": 36,
  "sources": {
-  "Remotive": 120,
-  "Jobicy": 158,
+  "Remotive": 128,
+  "Jobicy": 132,
   "Arbeitnow": 900,
   "Himalayas": 20,
-  "We Work Remotely": 97,
+  "We Work Remotely": 98,
   "WWR Programming": 25,
   "Jobicy RSS": 200,
   "ATS companies OK": 23
  },
  "jobs": [
+  {
+   "company": "SumUp",
+   "title": "Senior Embedded Android Engineer- Hardware",
+   "stack": "Android",
+   "level": "Senior",
+   "geo": "Berlin, Germany",
+   "eligCode": "m",
+   "eligLabel": "Berlin, Germany",
+   "salary": "",
+   "date": "2026-11-20T21:45:32+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/sumup/senior-embedded-android-engineer-hardware-berlin-438038",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
+  {
+   "company": "Coinbase",
+   "title": "Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)",
+   "stack": "Mobile",
+   "level": "Lead",
+   "geo": "Remote - USA",
+   "eligCode": "n",
+   "eligLabel": "Remote - USA",
+   "salary": "",
+   "date": "2026-11-20T20:32:17+00:00",
+   "url": "https://www.coinbase.com/careers/positions/8356850?gh_jid=8356850",
+   "src": "coinbase (Greenhouse)",
+   "visa": false
+  },
+  {
+   "company": "SIDES (SimplyDelivery GmbH)",
+   "title": "Full Stack Flutter Engineer – PHP/Go (m/f/x)",
+   "stack": "Flutter",
+   "level": "Mid",
+   "geo": "Berlin",
+   "eligCode": "m",
+   "eligLabel": "Berlin",
+   "salary": "",
+   "date": "2026-11-20T19:00:43+00:00",
+   "url": "https://www.arbeitnow.com/jobs/companies/sides-simplydelivery-gmbh/full-stack-flutter-engineer-php-go-berlin-329459",
+   "src": "Arbeitnow (DE/EU)",
+   "visa": false
+  },
   {
    "company": "SumUp",
    "title": "Senior Android Engineer- Hardware",
@@ -126,20 +168,6 @@
    "visa": false
   },
   {
-   "company": "Jobicy RSS",
-   "title": "Android Software Engineer",
-   "stack": "Android",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-11-20T08:39:49+00:00",
-   "url": "https://jobicy.com/jobs/163458-android-software-engineer",
-   "src": "Jobicy RSS",
-   "visa": false
-  },
-  {
    "company": "BJAK",
    "title": "iOS Developer",
    "stack": "iOS",
@@ -151,20 +179,6 @@
    "date": "2026-11-20T08:39:31+00:00",
    "url": "https://jobicy.com/jobs/163455-ios-developer",
    "src": "Jobicy",
-   "visa": false
-  },
-  {
-   "company": "Jobicy RSS",
-   "title": "iOS Developer",
-   "stack": "iOS",
-   "level": "Mid",
-   "geo": "",
-   "eligCode": "m",
-   "eligLabel": "Unstated",
-   "salary": "",
-   "date": "2026-11-20T08:39:31+00:00",
-   "url": "https://jobicy.com/jobs/163455-ios-developer",
-   "src": "Jobicy RSS",
    "visa": false
   },
   {
@@ -294,20 +308,6 @@
    "visa": false
   },
   {
-   "company": "Wellis",
-   "title": "Mobile Developer",
-   "stack": "Mobile",
-   "level": "Mid",
-   "geo": "Rotterdam, Zuid-Holland, Netherlands",
-   "eligCode": "m",
-   "eligLabel": "Rotterdam, Zuid-Holland, Netherlands",
-   "salary": "",
-   "date": "2026-11-18T21:51:37+00:00",
-   "url": "https://www.arbeitnow.nl/jobs/companies/wellis/mobile-developer-rotterdam-311723",
-   "src": "Arbeitnow (DE/EU)",
-   "visa": false
-  },
-  {
    "company": "BJAK",
    "title": "Mobile Engineer",
    "stack": "Mobile",
@@ -392,20 +392,6 @@
    "visa": false
   },
   {
-   "company": "Fanatics",
-   "title": "Senior Staff Engineer - Mobile/Kotlin",
-   "stack": "Android",
-   "level": "Lead",
-   "geo": "USA",
-   "eligCode": "n",
-   "eligLabel": "USA",
-   "salary": "163–265k USD",
-   "date": "2026-11-14T03:05:05+00:00",
-   "url": "https://jobicy.com/jobs/155305-senior-staff-engineer-mobile-kotlin",
-   "src": "Jobicy",
-   "visa": false
-  },
-  {
    "company": "Wise",
    "title": "Senior iOS Engineer II - Account Mobile",
    "stack": "iOS",
@@ -431,20 +417,6 @@
    "date": "2026-11-13T14:23:26.981000+00:00",
    "url": "https://jobs.smartrecruiters.com/wise/744000161496494",
    "src": "wise (SmartRecruiters)",
-   "visa": false
-  },
-  {
-   "company": "Coinbase",
-   "title": "Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)",
-   "stack": "Mobile",
-   "level": "Lead",
-   "geo": "Remote - Canada",
-   "eligCode": "n",
-   "eligLabel": "Remote - Canada",
-   "salary": "",
-   "date": "2026-11-06T16:55:54+00:00",
-   "url": "https://www.coinbase.com/careers/positions/8359446?gh_jid=8359446",
-   "src": "coinbase (Greenhouse)",
    "visa": false
   },
   {
